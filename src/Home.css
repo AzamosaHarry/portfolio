@@ -21,13 +21,13 @@
     display: flex;
     width: fit-content;
     align-items: center;
-    opacity: 0.3;
+    opacity: 0.1;
 }
 .primary_two {
     display: flex;
     width: fit-content;
     align-items: center;
-    opacity: 0.3;
+    opacity: 0.1;
 }
 .primary_one > h1 {
     font-size: 45px;
@@ -139,18 +139,21 @@
     
 }
 @media all and (max-width: 600px) {
+    .home_section_one {
+        min-height: 100vh;
+    }
     .primary_one > h1 {
-        font-size: 50px;
+        font-size: 20px;
     }
     .primary_two > h1 {
-        font-size: 50px;
+        font-size: 20px;
     }
     .section_two_fg {
         width: 10000%;
         animation: primary 5s linear infinite;
     }
     .home_section_one_hero {
-        margin: 25% 5%;
+        margin: 12% 5%;
         color: white;
     }
     .home_section_one_hero > h1{
