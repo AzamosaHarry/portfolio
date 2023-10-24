@@ -90,7 +90,7 @@ function Home() {
                   <div className='home_section_one_hero'>
                     <h1>If you know me, you will know my story</h1>
                     <br />
-                    <p>My name is Azamosa Harry and I am a beautiful mosaic of lived experience and culture.</p>
+                    <p>My name is Azamosa Harry and I am a <span style={{color: 'gray'}}>beautiful mosaic</span> of lived experience and culture.</p>
                     <br />
                     <p>I am a Mechanical engineer, Software developer, designer and writer. Yes, I enjoy the diversity of knowledge!</p>
                   </div>
