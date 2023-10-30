@@ -151,6 +151,10 @@
     
 }
 @media all and (max-width: 600px) {
+    .section_two_bg {
+    padding-top: 100px;
+    
+}
     .home_section_one {
         min-height: 100vh;
     }
@@ -165,7 +169,8 @@
         animation: primary 5s linear infinite;
     }
     .home_section_one_hero {
-        margin: 12% 5%;
+        padding: 0;
+        margin: 15% 5%;
         color: white;
     }
     .home_section_one_hero > h1{
@@ -195,12 +200,13 @@
     .home_section_two > div{
         flex-direction: column;
         align-items: space-around;
-        width: 90%;
+        width: 100%;
         margin-top: 20px;
     }
     .home_section_two > div > button{
+        width: 90%;
         margin-bottom: 20px;
-        margin-left: 10%;
+        margin-left: 5%;
     }
     .home_section_two > p{
         color: burlywood;

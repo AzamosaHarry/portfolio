@@ -9,6 +9,7 @@ function Home() {
     const navigate = useNavigate()
     return(
         <div>
+            <Header />
             <div className='home_body'>
                 <section className='home_section_one'>
                 <div className='section_two_bg'>
