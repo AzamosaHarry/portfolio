@@ -101,11 +101,12 @@ function Home() {
                     </div>
                 </section>
                 <section className='home_section_two'>
+                    <p>While you are here,</p>
                     <h1>Go through my respective portfolios</h1>
                     <div>
                         <button>Mechanical engineering</button>
                         <button>Software developing</button>
-                        <button>Design</button>
+                        <button onClick={() => {navigate('/portfolio/design')}}>Design</button>
                         <button>Writer</button>
                     </div>
                 </section>

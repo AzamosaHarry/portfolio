@@ -1,6 +1,7 @@
 .home_section_one {
     min-height: 95vh;
-    background: url(/src/bg.jpg);
+    background: url(/src/1.jpg);
+    background-size: cover;
 }
 .section_two_bg {
     padding-top: 100px;
@@ -45,20 +46,21 @@
     color: white;
 }
 .home_section_one_hero > h1{
-    font-family: 'Syne';
+    font-family: 'Nothing You Could Do', cursive;
     font-size: 65px;
     font-weight: 600;
-    color: sienna;
+    color: white;
+    width: 45%;
 }
 .home_section_one_hero > p{
-    font-size: 25px;
-    width: 40%;
+    font-size: 20px;
+    width: 50%;
 }
 .section_one_arrow {
     position: absolute;
     top: 75vh;
     width: 10%;
-    color: sienna;
+    color: burlywood;
     left: 80%;
     z-index: 2;
 }
@@ -90,7 +92,7 @@
 
 }
 .home_section_two {
-    background-color: black;
+    background-color: #202020;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,6 +104,11 @@
     align-items: center;
     font-size: 60px;
 }
+.home_section_two > p{
+    color: burlywood;
+    align-items: center;
+    font-size: 30px;
+}
 .home_section_two > div{
     display: flex;
     justify-content: space-around;
@@ -109,6 +116,7 @@
     margin-top: 100px;
 }
 .home_section_two > div > button{
+    font-family: 'Nothing You Could Do', cursive;
     padding: 10px 25px;
     border: 0                                                   ;
     background: white;
@@ -162,6 +170,7 @@
     }
     .home_section_one_hero > h1{
         font-size: 25px;
+        color: burlywood;
     }
     .home_section_one_hero > p{
         font-size: 20px;
@@ -173,6 +182,8 @@
     }
     .home_section_two {
         padding: 10% 0;
+        justify-content: start;
+        align-items: start;
     }
     .home_section_two > h1{
         color: white;
@@ -189,5 +200,12 @@
     }
     .home_section_two > div > button{
         margin-bottom: 20px;
+        margin-left: 10%;
+    }
+    .home_section_two > p{
+        color: burlywood;
+        font-size: 20px;
+        text-align: start;
+        padding-left: 5%;
     }
 }

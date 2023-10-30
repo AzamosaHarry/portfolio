@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&family=Zeyada&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 
 
 * {
@@ -11,7 +13,7 @@
 }
 body {
   box-sizing: border-box;
-  font-family: 'Syne', 'Roboto', 'Oxygen',
+  font-family: 'Nothing You Could Do','Mulish','Syne', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
