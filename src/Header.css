@@ -41,26 +41,13 @@
     font-size: 15px;
     cursor: pointer;
     text-decoration: none;
-    color: white;
+    color: gray;
 }
 .header_nav_list:hover{
-    color: #ffcc00;
-}
-.header > button {
-    margin-left: auto;
-    padding: 10px 20px;
-    font-size: 12.5px;
-    color: white;
-    background-color: #db7a00;
-    border: 0;
-    border-radius: 2.5px;
-    cursor: pointer;
-    font-weight: 200;
-    transition: 1.5s linear;    
+    color: burlywood;
 }
 .home_menu {
     display: none;
-    color: #1d293f;
     font-size: 30px;
     margin-left: auto;
     z-index: 25;
@@ -68,8 +55,8 @@
 .home_sidebar{
     position: absolute;
     z-index: 100;
-    background-color: burlywood;
-    color: white;
+    background-color: black;
+    color: gray;
     top: 0;
     left: -100%;
     width: 95%;
@@ -81,8 +68,8 @@
 .home_sidebar_true{
     position: absolute;
     z-index: 100;
-    background-color: burlywood;
-    color: white;
+    background-color: black;
+    color: gray;
     top: 0;
     left: 0;
     width: 95%;
@@ -93,7 +80,7 @@
 }
 .home_sidebar_close {
     font-size: 30px;
-    color: white;
+    color: gray;
     margin: 2.5%;
     margin-left: auto;
 }
@@ -113,16 +100,16 @@
 .home_sidebar_link {
     text-decoration: none;
     font-size: 18px;
-    color: white;
+    color: gray;
 }
 .evajay_header {
     object-fit: contain;
-    color: white;
+    color: gray;
     font-size: 40px;
 }
 .evajay_header2{
     object-fit: contain;
-    color: white;
+    color: gray;
     font-size: 40px;
 }
 
@@ -201,7 +188,7 @@
     }
     .home_menu {
         display: block;
-        color: white;
+        color: gray;
     }
     .evajay_header {
         margin: 10px;
@@ -209,5 +196,10 @@
     .evajay_header2 {
         margin: 20px 50px;
     }
-    
+    .evajay_header {
+        font-size: 35px;
+    }
+    .evajay_header2{
+        font-size: 35px;
+    }
 }

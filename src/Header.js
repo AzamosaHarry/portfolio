@@ -11,7 +11,7 @@ function Header() {
 
     return (
       <div className='header transparent'>      
-        <Link to='/'><RiLeafFill alt='' className='evajay_header' /></Link>
+        <Link to='/portfolio'><RiLeafFill alt='' className='evajay_header' /></Link>
         <ul className='header_nav'>
           <li>
             <Link to='/mystory' className='header_nav_list'>My Story</Link>

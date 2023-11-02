@@ -1,0 +1,143 @@
+.design {
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Libre Baskerville','Mulish';
+}
+.design_head {
+    min-height: 80vh;
+    overflow: hidden;
+}
+.lines {
+    position: relative;
+    left: 0;
+    top: 16vh;
+    width: 90%;
+    height: 60vh;
+    z-index: 1;
+}
+.lines2 {
+    position: absolute;
+    left: 0;
+    top: 0vh;
+    width: 90%;
+    height: 70vh;
+}
+.design_head h1:first-child{
+    color: #7a7d54;
+    margin: 0;
+    font-size: 195px;
+    position: absolute;
+    left: 10%;
+    top: 0;
+    font-weight: 500;
+}
+.design_head h1:last-child{
+    color: black;
+    margin: 0;
+    font-size: 175px;
+    position: relative;
+    left: 10%;
+    top: 170px;
+    z-index: 1;
+    font-weight: 500;
+}
+.design_main {
+    min-height: 30vh;
+    background: black;
+    padding: 5%;
+}
+.design_main h3 {
+    color: silver;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+.design_section_one {
+    min-height: 100vh;
+    background: black;
+}
+.design_image {
+    width: 100%;
+    height: 600px;
+}
+.design_div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    z-index: 3;
+}
+.design_div > div{
+    width: 23.5%;
+    margin: 30px 0;
+}
+.design_div > div h3{
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+.design_div > div p{
+    color: gray;
+    font-weight: 400;
+    font-size: 12px;
+}
+@media all and (max-width: 1250px) {
+    .lines {
+        position: relative;
+        left: 0;
+        top: 16vh;
+        width: 90%;
+        height: 60vh;
+        z-index: 1;
+    }
+    .lines2 {
+        position: absolute;
+        left: 0;
+        top: 15vh;
+        width: 90%;
+        height: 60vh;
+    }
+    .design_head {
+        min-height: 90vh;
+    }
+    .design_head h1:first-child{
+        font-size: 130px;
+        position: absolute;
+        left: 5%;
+        top: 0;
+    
+    }
+    .design_head h1:last-child{
+        font-size: 100px;
+        position: relative;
+        left: 5%;
+        top: 150px;
+    }
+    .design_main h3 {
+        font-size: 20px;
+        text-align: start;
+    }
+    .lines2 {
+        position: absolute;
+        left: 0;
+        top: 10vh;
+        width: 90%;
+        height: 60vh;
+        transform: rotateZ(0deg);
+    }
+    .design_div > div{
+        width: 95%;
+        margin: 30px 0;
+    }
+    .design_div > div h3{
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .design_div > div p{
+        color: gray;
+        font-weight: 400;
+        font-size: 12px;
+    }
+}

@@ -60,7 +60,7 @@
     position: absolute;
     top: 75vh;
     width: 10%;
-    color: burlywood;
+    color: goldenrod;
     left: 80%;
     z-index: 2;
 }
@@ -127,7 +127,7 @@
     border-radius: 5px;
 }
 .home_section_two > div > button:hover{
-    background: sienna;
+    background: goldenrod;
     color: white;
 }
 @keyframes primary {
@@ -175,7 +175,7 @@
     }
     .home_section_one_hero > h1{
         font-size: 25px;
-        color: burlywood;
+        color: goldenrod;
     }
     .home_section_one_hero > p{
         font-size: 20px;
@@ -209,7 +209,7 @@
         margin-left: 5%;
     }
     .home_section_two > p{
-        color: burlywood;
+        color: goldenrod;
         font-size: 20px;
         text-align: start;
         padding-left: 5%;
