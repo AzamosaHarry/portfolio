@@ -10,6 +10,7 @@ import image7 from './image7.jpg'
 import image8 from './image8.png'
 import image9 from './image9.jpg'
 import image10 from './image10.jpg'
+import image11 from './image11.jpg'
 import lines from './lines.png'
 import lines2 from './lines2.png'
 import Header from './Header'
@@ -28,7 +29,7 @@ function Design () {
                     easing="easeInQuad">
                     <img src={lines2} alt='' className='lines2'/>
                 </Parallax>
-                <Parallax speed={-20}>
+                <Parallax speed={-25}>
                     <h1>Design</h1>
                     <h1>2023</h1>
                 </Parallax>
@@ -115,12 +116,21 @@ function Design () {
                             <p>Brand Identity, Packaging design</p>
                         </div>
                     </div>
+                    <div>
+                        <img src={image11} className='design_image'/>
+                        <div>
+                            <h3>Capital X</h3>
+                            <p>Brand Identity, Packaging design</p>
+                        </div>
+                    </div>
                 </div>
             </section>
             <div className='design_main'>
-                <Parallax speed={0}>
+                <Parallax speed={-5}>
                     <h3>With over half a decade of experience, I have worked with clients in fashion, lifestyle, art, and technology, including Mothership. Capital X, mobile Energy and Evajay farms. I am passionate about building distinct visual worlds, intuitively capturing the very essence of an idea or a message. Off-screen, I enjoy time with my family, thinking about space, writing plays, and trying to grow a forest on a tiny African balcony.!</h3> 
-                    <h3> For new project inquiries, please get in touch. Shalom Traveller</h3>
+                    <br />
+                    <h3> For new project inquiries, please get in touch</h3>
+                    <h3>Shalom Traveller!</h3>
                 </Parallax>
             </div>
             <div className='footer' style={{background: 'black'}}>

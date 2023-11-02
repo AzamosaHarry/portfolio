@@ -47,7 +47,7 @@
     padding: 5%;
 }
 .design_main h3 {
-    color: silver;
+    color: white;
     margin: 0;
     font-size: 30px;
     text-align: center;
@@ -99,20 +99,20 @@
         height: 60vh;
     }
     .design_head {
-        min-height: 90vh;
+        min-height: 50vh;
     }
     .design_head h1:first-child{
         font-size: 130px;
         position: absolute;
         left: 5%;
-        top: 0;
+        top: -100px;
     
     }
     .design_head h1:last-child{
         font-size: 100px;
         position: relative;
         left: 5%;
-        top: 150px;
+        top: 50px;
     }
     .design_main h3 {
         font-size: 20px;
@@ -121,7 +121,7 @@
     .lines2 {
         position: absolute;
         left: 0;
-        top: 10vh;
+        top: 50vh;
         width: 90%;
         height: 60vh;
         transform: rotateZ(0deg);
