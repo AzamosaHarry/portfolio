@@ -24,7 +24,7 @@ function Header() {
         <FiMenu className='home_menu' onClick={() => {setMenu(true)}}/>
         <div className={menu? 'home_sidebar_true' : 'home_sidebar'}>
             <div style={{display: 'flex', alignItems: 'center'}}>
-            <Link to='/'><RiLeafFill alt='' className='evajay_header' /></Link>
+            <Link to='/portfolio'><RiLeafFill alt='' className='evajay_header' /></Link>
               <AiOutlineClose className='home_sidebar_close' onClick={() => {setMenu(false)}}/>
             </div>
             <ul className='home_sidebar_navbar'>

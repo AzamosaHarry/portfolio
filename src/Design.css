@@ -87,19 +87,19 @@
         position: relative;
         left: 0;
         top: 16vh;
-        width: 90%;
+        width: 100%;
         height: 60vh;
         z-index: 1;
     }
     .lines2 {
         position: absolute;
         left: 0;
-        top: 15vh;
-        width: 90%;
-        height: 60vh;
+        top: 5vh;
+        width: 100%;
+        height: 70vh;
     }
     .design_head {
-        min-height: 50vh;
+        min-height: 40vh;
     }
     .design_head h1:first-child{
         font-size: 130px;
@@ -118,14 +118,6 @@
         font-size: 20px;
         text-align: start;
     }
-    .lines2 {
-        position: absolute;
-        left: 0;
-        top: 50vh;
-        width: 90%;
-        height: 60vh;
-        transform: rotateZ(0deg);
-    }
     .design_div > div{
         width: 95%;
         margin: 30px 0;
@@ -140,4 +132,5 @@
         font-weight: 400;
         font-size: 12px;
     }
+    
 }

@@ -1,0 +1,226 @@
+.engineering {
+    background: #d7d2cb;
+    min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #2b2b2b;
+    overflow: hidden;
+}
+.engineering_body {
+    min-height: 100vh;
+}
+.engineering_section_one {
+    min-height: 90vh;
+}
+.engineering_section_one_hero {
+    position: absolute;
+    top: 25vh;
+    left: 20%
+}
+.engineering_section_one_hero > h1{
+    font-size: 100px;
+    text-align: right;
+}
+.engineering_section_summary {
+    height: 90vh;
+    background: black;
+    overflow: hidden;
+}
+.sum1 {
+    position: relative;
+    left: 10%;
+}
+.sum2 {
+    position: relative;
+    height: 200px;
+}
+.sum3 { 
+    position: relative;
+    height: 100px;
+}
+.sum4 {
+    position: relative;
+    height: 200px;
+    left: 90%;
+}
+.section_summary {
+    position: absolute;
+    top: 120vh;
+    left: 50%;
+    color: white;
+    width: 25%;
+}
+.section_summary > h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.section_summary > h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.section_summary > p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.engineering_section_two {
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.engineering_section_two > div{
+    width: 50%;
+    padding-left: 10%;
+}
+.engineering_section_two > div > h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.engineering_section_two > div >  h2{
+    margin: 20px 0;
+}
+#first_rule {
+    border: 2.5px solid #2b2b2b;
+    width: 100%;
+}
+.engineering_section_two > div > hr{
+    border: 1px solid #2b2b2b;
+    width: 100%;
+}
+.engineering_section_two_div {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.engineering_section_two_div > div{
+    display: flex;
+    flex-direction: column;
+}
+.engineering_section_image {
+    width: 40%;
+    height: 50vh;
+}
+.engineering_section_three {
+    min-height: 65vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.engineering_section_three > div{
+    width: 50%;
+    padding-right: 10%;
+}
+.engineering_section_three > div > h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.engineering_section_three > div >  h2{
+    margin: 20px 0;
+}
+#first_rule {
+    border: 2.5px solid #2b2b2b;
+    width: 100%;
+}
+.engineering_section_three > div > hr{
+    border: 1px solid #2b2b2b;
+    width: 100%;
+}
+.engineering_section_three_div {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.engineering_section_two_div > div{
+    display: flex;
+    flex-direction: column;
+}
+.engineering_section_image {
+    width: 40%;
+    height: 50vh;
+}
+.engineering_section_six {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    color: white;
+    background: black;
+}
+.engineering_section_six > h1{
+    font-size: 60px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+@media all and (max-width: 1250px) {
+    .engineering_section_one_hero {
+        position: absolute;
+        top: 25vh;
+        left: 2.5%
+    }
+    .engineering_section_one_hero > h1{
+        font-size: 50px;
+        text-align: left;
+    }
+    .engineering_section_two {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .engineering_section_two > div{
+        width: 100%;
+        padding: 0 2.5%;
+    }
+    .engineering_section_image {
+        width: 95%;
+        height: 50vh;
+    }
+    .engineering_section_two {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .engineering_section_two > div{
+        width: 100%;
+        padding: 0 2.5%;
+        margin-top: 30px;
+    }
+    .engineering_section_image {
+        width: 95%;
+        height: 50vh;
+    }
+    .engineering_section_three {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .engineering_section_three > div{
+        width: 100%;
+        padding: 0 2.5%;
+        margin-top: 30px;
+    }
+    .engineering_section_image {
+        width: 95%;
+        height: 50vh;
+    }
+    .section_summary {
+        position: absolute;
+        top: 110vh;
+        left: 5%;
+        color: white;
+        width: 70%;
+    }
+    .engineering_section_six {
+        justify-content: start;
+        align-items: start;
+        padding: 0 2.5%;
+    }
+}
