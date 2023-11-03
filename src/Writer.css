@@ -1,0 +1,26 @@
+.writer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.writer_body {
+    
+}
+.writer_section_one {
+    min-height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    transition: 0.5s linear;
+}
+.writer_section_one.visible-bg{
+    background: black;
+    color: white;
+}
+.writer_section_one_div1 {
+    min-height: 100vh;
+    padding: 0 2.5%;
+}
+.writer_section_one_div1 > p{
+    color: wheat;
+    margin-top: 10px;
+}
