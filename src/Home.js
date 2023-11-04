@@ -106,7 +106,7 @@ function Home() {
                     <h1>Go through my respective portfolios</h1>
                     <div>
                         <button onClick={() => {navigate('/portfolio/engineering')}}>Mechanical engineering</button>
-                        <button>Software developing</button>
+                        <button onClick={() => {navigate('/portfolio/developer')}}>Software developing</button>
                         <button onClick={() => {navigate('/portfolio/design')}}>Design</button>
                         <button onClick={() => {navigate('/portfolio/writer')}}>Writer</button>
                     </div>

@@ -42,11 +42,31 @@ function Writer () {
                         <h1>"For what is life without her?"</h1>
                         <h1>"being without Saphira is like unto death,"</h1>
                         <h1>"but less bearable"</h1>
-                        <p>Except from the humming bird</p>
+                        <p>Excerpt from the humming bird</p>
+                    </div>
+                    <div className='writer_section_one_div2'>
+                        <div>
+
+                        </div>
+                        <div>
+                          
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div>
+                            
+                        </div>
                     </div>
                 </section>
-                <section>
-
+                <section className='writer_section_two'>
+                    <h3>Get in touch traveller</h3>
                 </section>
             </div>
             <Footer />

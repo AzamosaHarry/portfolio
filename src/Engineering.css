@@ -223,4 +223,9 @@
         align-items: start;
         padding: 0 2.5%;
     }
+    .sum2 {
+        position: relative;
+        height: 200px;
+        top: 350px;
+    }
 }

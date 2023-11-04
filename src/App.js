@@ -4,6 +4,7 @@ import Home from './Home';
 import Design from './Design';
 import Engineering from './Enginneering';
 import Writer from './Writer';
+import Developer from './Developer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path='/portfolio/design' element={<Design />} />
           <Route path='/portfolio/engineering' element={<Engineering />} />
           <Route path='/portfolio/writer' element={<Writer />} />
+          <Route path='/portfolio/developer' element={<Developer />} />
         </Routes>
       </BrowserRouter>
     </div>
