@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.05a62a0e.css",
-    "main.js": "/portfolio/static/js/main.1e5b1b54.js",
+    "main.css": "/portfolio/static/css/main.bf1dd206.css",
+    "main.js": "/portfolio/static/js/main.fe84f329.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/herobg-2k.jpg": "/portfolio/static/media/herobg-2k.57ee5e31c615452f0fda.jpg",
     "static/media/image5.jpg": "/portfolio/static/media/image5.2bca5b367e89c9a56792.jpg",
     "static/media/image8.png": "/portfolio/static/media/image8.7eac953e3f67d58e5582.png",
     "static/media/image6.jpg": "/portfolio/static/media/image6.cf6335ee74e466dabfc6.jpg",
+    "static/media/herobg-2k-1.jpg": "/portfolio/static/media/herobg-2k-1.d8c49a27cebdf8ac00f1.jpg",
     "static/media/2.jpg": "/portfolio/static/media/2.3372b6858f20b9aa3d64.jpg",
     "static/media/image3.jpg": "/portfolio/static/media/image3.8f85ed7f8a6554fc6e28.jpg",
     "static/media/image7.jpg": "/portfolio/static/media/image7.e65b8b1385e1e0e85991.jpg",
@@ -14,19 +16,22 @@
     "static/media/image1.jpg": "/portfolio/static/media/image1.f71c0ce0f641b68720f0.jpg",
     "static/media/4.jpg": "/portfolio/static/media/4.4581054e0c4080cda5aa.jpg",
     "static/media/about-asteroid-main.png": "/portfolio/static/media/about-asteroid-main.ce0cc896f6b484852435.png",
+    "static/media/image12.png": "/portfolio/static/media/image12.751a47e2911dc713589f.png",
     "static/media/image11.jpg": "/portfolio/static/media/image11.37b8b5f4336e3c7e369f.jpg",
+    "static/media/image13.png": "/portfolio/static/media/image13.0408b7e9bc603d3ebf59.png",
     "static/media/image10.jpg": "/portfolio/static/media/image10.19794762c05ea72c5173.jpg",
+    "static/media/image11.png": "/portfolio/static/media/image11.e0edf2c7a5cb22173f5e.png",
     "static/media/image9.jpg": "/portfolio/static/media/image9.c2883063ec1979fdaa85.jpg",
     "static/media/lines2.png": "/portfolio/static/media/lines2.a82b5807eead8d9eb64a.png",
     "static/media/lines.png": "/portfolio/static/media/lines.200af792363ff3019edc.png",
     "static/media/about-asteroid1.png": "/portfolio/static/media/about-asteroid1.66166d12e903fc3c6a24.png",
     "index.html": "/portfolio/index.html",
-    "main.05a62a0e.css.map": "/portfolio/static/css/main.05a62a0e.css.map",
-    "main.1e5b1b54.js.map": "/portfolio/static/js/main.1e5b1b54.js.map",
+    "main.bf1dd206.css.map": "/portfolio/static/css/main.bf1dd206.css.map",
+    "main.fe84f329.js.map": "/portfolio/static/js/main.fe84f329.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05a62a0e.css",
-    "static/js/main.1e5b1b54.js"
+    "static/css/main.bf1dd206.css",
+    "static/js/main.fe84f329.js"
   ]
 }
