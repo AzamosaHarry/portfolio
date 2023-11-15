@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
+    padding: 60px 0;
 }
 .footer > div > p {
     color: white;
@@ -23,7 +23,18 @@
     color: sienna;
     cursor: pointer;
 }
-
+.footer > section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.footer > section > p {
+    color: gray;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+}
 @media all and (max-width: 600px) {
     .footer > div > p {
         color: white;

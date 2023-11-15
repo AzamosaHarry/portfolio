@@ -50,14 +50,16 @@
     color: white;
 }
 .home_section_one_hero > h1{
-    font-size: 45px;
-    font-weight: 600;
+    font-size: 55px;
+    font-weight: 500;
     color: white;
     width: 45%;
+    font-family: 'Cormorant Garamond', serif;
 }
 .home_section_one_hero > p{
-    font-size: 20px;
+    font-size: 18px;
     width: 50%;
+    color: gray;
 }
 .section_one_arrow {
     position: absolute;
@@ -106,11 +108,13 @@
     color: white;
     align-items: center;
     font-size: 60px;
+    font-family: 'Cormorant Garamond', serif;
 }
 .home_section_two > p{
     color: burlywood;
     align-items: center;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
 }
 .home_section_two > div{
     display: flex;

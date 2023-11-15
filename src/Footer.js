@@ -12,6 +12,9 @@ function Footer() {
                 <h3>|</h3>
                 <p>Linkedin</p>
             </div>
+            <section>
+                <p> &copy; 2023 Azamosa Harry. All rights reserved. Project Developer & Founder of PROJECT M.</p>
+            </section>
         </div>
     )
 }

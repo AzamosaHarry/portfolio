@@ -1,0 +1,92 @@
+.contact {
+
+}
+.contact_body {
+
+}
+.contact_section_one {
+    min-height: 80vh;
+    background: sienna;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_section_one > h1{
+    font-size: 130px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+.contact_section_two {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+.contact_section_two > div{
+    width: 25%;
+    border: 1px solid gray;
+    border-left: 4px solid gray;
+    padding: 25px 50px;
+    transition: 1s linear;
+} 
+.contact_section_two > div:hover{
+    border-left: 4px solid sienna;
+} 
+.contact_section_two > div > h1{
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 10px 0;
+} 
+.contact_section_two > div > p{
+    color: gray;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 5px 0;
+    line-height: 25px;
+} 
+.contact_section_two > div  > h3{
+    color: sienna;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 40px 0;
+} 
+.contact_section_three {
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.contact_section_three > h1{
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.contact_section_three > h3{
+    color: sienna;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 5px 0;
+    text-decoration: underline;
+}
+@media all and (max-width: 600px) {
+    .contact_section_two > div{
+        margin: 5% 2.5%;
+        width: 100%;
+    } 
+    .contact_section_one > h1{
+        margin: 0 5%;
+        font-size: 60px;
+    }
+}

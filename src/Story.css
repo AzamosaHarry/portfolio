@@ -1,0 +1,205 @@
+.story {
+    overflow: hidden;
+}
+.story_body {
+
+}
+.story_section_one {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: sienna;
+    color: white;
+}
+.story_section_one h3 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+    color: burlywood;
+}
+.story_section_one h1 {
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+}
+.story_section_two {
+    padding: 5% 15% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+}
+.story_section_two_image {
+    width: 40%;
+}
+.story_section_two > div{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.story_section_two > div > div{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.story_section_two > div  h1{
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+}
+.story_section_two > div  p{
+    font-size: 18px;
+    font-weight:300;
+    line-height: 32.5px;
+    width: 100%;
+}
+.story_section_three {
+    padding: 5% 22.5% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background: black;
+    color: white;
+}
+.story_section_three > h3{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: sienna;
+}
+.story_section_three > h1{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+}
+.story_section_four {
+    padding: 5% 15% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+.story_section_four_image {
+    width: 50%;
+}
+.story_section_five {
+    padding: 5% 15% ;
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: white;
+}
+.story_section_five > h1{
+    width: 40%;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+}
+.story_section_five > div{
+    width: 60%;
+}
+.story_section_five > div > p{
+    font-size: 15px;
+    line-height: 28px;
+}
+.story_section_six{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: black;
+    color: white;
+    padding: 5% 0;
+}
+.story_section_six > div {
+    margin: 0 30px;
+}
+.story_section_six > div > h1{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+}
+.story_section_six_image1 {
+    height: 600px;
+}
+.story_section_six_image2 {
+    height: 450px;
+}
+@media all and (max-width: 600px) {
+    .story_section_one h3 {
+        margin-left: 5%;
+    }
+    .story_section_one h1 {
+        margin-left: 5%;
+    }
+    .story_section_two {
+        padding: 5% 5% ;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .story_section_two_image {
+        width: 100%;
+    }
+    .story_section_two > div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .story_section_two > div > div{
+        width: 100%;
+    }
+    .story_section_two > div  h1{
+        font-size: 50px;
+    }
+    .story_section_two > div  p{
+        font-size: 18px;
+        font-weight:300;
+        line-height: 32.5px;
+        width: 100%;
+    }
+    .story_section_three {
+        padding: 5% 5% ;
+    }
+    .story_section_three > h1{
+        font-size: 30px;
+    }
+    .story_section_four {
+        padding: 5% 5% ;
+        display: flex;
+        flex-direction: column;
+    }
+    .story_section_four_image {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .story_section_five {
+        padding: 5% 5% ;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .story_section_five > h1{
+        width: 100%;
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .story_section_five > div{
+        width: 100%;
+    }
+    .story_section_five > div > p{
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .story_section_six{
+        overflow: scroll;
+    }
+}

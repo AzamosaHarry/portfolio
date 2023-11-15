@@ -19,9 +19,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
 }
-.writer_section_one_div1 > p{
+.writer_section_one_div1  p{
     color: wheat;
     margin-top: 10px;
 }
@@ -60,10 +61,11 @@
         margin: 2.5%;
     }
     .writer_section_two > h3{
-        font-size: 15px;
+        font-size: 11.5px;
         margin: 0;
         margin-top: 30px;
         color: lemonchiffon;
         letter-spacing: 5px;
+        text-align: center;
     }
 }

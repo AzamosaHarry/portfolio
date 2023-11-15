@@ -9,47 +9,10 @@ function Home() {
     const navigate = useNavigate()
     return(
         <div>
-            <Header />
+          <Header />
             <div className='home_body'>
                 <section className='home_section_one'>
                 <div className='section_two_bg'>
-                    <div className='section_two_fg'>
-                      <div className='primary_one'>
-                        <h1>Azamosa Harry</h1>
-                        <BsSuitDiamondFill />   
-                        <h1>Azamosa Harry</h1>
-                        <BsSuitDiamondFill />   
-                        <h1>Azamosa Harry</h1>
-                        <BsSuitDiamondFill />   
-                        <h1>Azamosa Harry</h1>
-                        <BsSuitDiamondFill />   
-                        <h1>Azamosa Harry</h1>
-                        <BsSuitDiamondFill />   
-                        <h1>Azamosa Harry</h1>
-                        <BsSuitDiamondFill />   
-                        <h1>Azamosa Harry</h1>
-                        <BsSuitDiamondFill />   
-                        <h1>Azamosa Harry</h1>
-                      </div>
-                      <div className='primary_two'>
-                        <h1>Azamosa Harry</h1>
-                        <BsSuitDiamondFill />   
-                        <h1>Azamosa Harry</h1>
-                        <BsSuitDiamondFill />   
-                        <h1>Azamosa Harry</h1>
-                        <BsSuitDiamondFill />   
-                        <h1>Azamosa Harry</h1>
-                        <BsSuitDiamondFill />   
-                        <h1>Azamosa Harry</h1>
-                        <BsSuitDiamondFill />   
-                        <h1>Azamosa Harry</h1>
-                        <BsSuitDiamondFill />   
-                        <h1>Azamosa Harry</h1>
-                        <BsSuitDiamondFill />   
-                        <h1>Azamosa Harry</h1>
-                      </div>
-                      
-                    </div>
                     <div className='section_two_fg'>
                       <div className='primary_one'>
                         <h1>Azamosa Harry</h1>

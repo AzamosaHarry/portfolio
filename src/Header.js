@@ -16,7 +16,7 @@ function Header() {
         <Link to='/portfolio'><RiLeafFill alt='' className='evajay_header' /></Link>
         <ul className='header_nav'>
           <li>
-            <Link to='/mystory' className='header_nav_list'>My Story</Link>
+            <Link to='/portfolio/story' className='header_nav_list'>My Story</Link>
           </li>
           <li className='dropdown' onClick={() => {setDropdown(!dropdown)}}>         
             <div>
@@ -30,6 +30,12 @@ function Header() {
               <h1 onClick={() => {navigate('/portfolio/writer')}}>Writer</h1>
             </div>
           </li>
+          <li>
+            <Link to='/portfolio/insight' className='header_nav_list'>Insight</Link>
+          </li>
+          <li>
+            <Link to='/portfolio/contact' className='header_nav_list'>Contact</Link>
+          </li>
         </ul>
 
         <FiMenu className='home_menu' onClick={() => {setMenu(true)}}/>
@@ -40,7 +46,7 @@ function Header() {
             </div>
             <ul className='home_sidebar_navbar'>
               <li><Link
-                to='/mystory'
+                to='/portfolio/story'
                 className='home_sidebar_link'
                 >My story</Link></li>
               <li><Link
@@ -53,7 +59,15 @@ function Header() {
               <h1 onClick={() => {navigate('/portfolio/developer')}}>Software developer</h1>
               <h1 onClick={() => {navigate('/portfolio/design')}}>Design</h1>
               <h1 onClick={() => {navigate('/portfolio/writer')}}>Writer</h1>
-            </div>
+              </div>
+              <li><Link
+                  to='/portfolio/insight'
+                  className='home_sidebar_link'
+                  >Insight</Link></li>
+              <li><Link
+                  to='/portfolio/contact'
+                  className='home_sidebar_link'
+                  >Contact</Link></li>
             </ul>
         </div>
     </div>

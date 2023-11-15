@@ -1,0 +1,22 @@
+.developer_body {
+}
+.developer_section_one {
+    min-height: 100vh;
+    background: sienna;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.developer_section_one h3{
+    color: burlywood;
+    font-size: 90px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+}
+.developer_section_one h1{
+    font-size: 130px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+}
