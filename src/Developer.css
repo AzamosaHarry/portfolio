@@ -36,7 +36,7 @@
 }
 .bg_div {
     width: fit-content;
-    animation: primary 5s linear infinite;
+    animation: roll 5s linear infinite;
     font-size: 80px;
     font-weight: 900;
     transform: translateY(0);
@@ -180,7 +180,7 @@
 .developer_section_section_image {
     width: 400px;
 }
-@keyframes primary {
+@keyframes roll {
     0% { 
         transform: translateY(50%); 
     }
