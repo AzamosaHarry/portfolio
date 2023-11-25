@@ -54,7 +54,7 @@ function Home() {
                   <div className='home_section_one_hero'>
                     <h1>Just call me Harry</h1>
                     <br />
-                    <p>My name is  <span style={{color: 'lemonchiffon'}}> AZAMOSA HARRY</span> and I am a beautiful mosaic of lived experience and culture.</p>
+                    <p>My name is  <span style={{color: 'burlywood'}}> AZAMOSA HARRY</span> and I am a beautiful mosaic of lived experience and culture.</p>
                     <br />
                     <p>I am a Mechanical engineer, Software developer, designer and writer. Yes, I enjoy the diversity of knowledge!</p>
                   </div>

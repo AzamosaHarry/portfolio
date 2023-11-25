@@ -110,7 +110,7 @@
     font-family: 'Cormorant Garamond', serif;
 }
 .home_section_two > p{
-    color: burlywood;
+    color: sienna;
     align-items: center;
     font-size: 17px;
 }
@@ -131,7 +131,7 @@
     cursor: pointer;
 } 
 .home_section_two_div > div:hover{
-    border-left: 4px solid burlywood;
+    border-left: 4px solid sienna;
 } 
 .home_section_two_div > div > h1{
     color: white;
@@ -140,7 +140,7 @@
     margin: 10px 0;
 } 
 .home_section_two_div > div  > h3{
-    color: burlywood;
+    color: sienna;
     font-size: 10px;
     font-weight: 400;
     margin: 10px 0;
@@ -187,13 +187,13 @@
     }
     .home_section_one_hero {
         padding: 0;
-        margin: 45% 5%;
+        margin: 35% 5%;
         color: white;
     }
     .home_section_one_hero > h1{
         font-size: 45px;
         width: 70%;
-        color: burlywood;
+        color: sienna;
         margin-bottom: 30px;
     }
     .home_section_one_hero > p{
@@ -223,7 +223,7 @@
         width: 95%;
     } 
     .home_section_two > p{
-        color: burlywood;
+        color: sienna;
         font-size: 17px;
         text-align: start;
         padding-left: 5%;

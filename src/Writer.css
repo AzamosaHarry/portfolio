@@ -106,7 +106,7 @@
 
 @media all and (max-width: 600px) {
     .writer_section_one_div1 > div{
-        top: 70vh;
+        top: 65vh;
         font-size: 30px;
         font-weight: 500;
     }
@@ -119,7 +119,7 @@
         margin: 2.5%;
     }
     .writer_section_two {
-        margin-top: -15vh;
+        margin-top: -10vh;
     }
     .writer_section_two > h3{
         font-size: 11.5px;
