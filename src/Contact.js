@@ -29,7 +29,7 @@ function Contact () {
                 </section>
                 <section className='contact_section_three'>
                     <h1>Or Get in contact directly</h1>
-                    <h3>MAIL Johnharry238@gmail.com</h3>
+                    <h3 onClick={() => window.location = 'mailto:johnharry@gmail.com?subject=Access request'} >MAIL Johnharry238@gmail.com</h3>
                     <h3>CALL +2347031122233</h3>
                     <h3>SEND A MESSAGE ON Linkedin</h3>
                 </section>

@@ -25,13 +25,13 @@ function Story () {
                     <div>
                         <div>
                             <h1>Its not enough to exist, One must live.</h1>
-                            <p>I have a passion for coffee, I have a cat named after MacGyver, my favorite number is 22, love a good Old Fashion, I play video games like it's my life, I knew what I wanted to do at the age of 13, my favorite food is bacon, and I broke my left arm twice.</p>
+                            <p>I have a passion for coffee, I have a cat named after MacGyver, my favorite number is 8, love fashion and styles, I play chess like it's my life, I knew what I wanted to do at the age of 13, my favorite food is steamed jollof rice, and I broke my left arm twice.</p>
                         </div>
                     </div>
                 </section>
                 <section className='story_section_three'>
                     <h3>THIS IS ME IN A NUTSHELL</h3>
-                    <h1>I’m a husband, father, coffee enthusiast, cat person, gamer, and Squarespace developer.</h1>
+                    <h1>I’m a Christian, Tech lover, soccer enthusiast, cat person, designer, and Software developer.</h1>
                 </section>
                 <section  className='story_section_four'>
                     <img src={image5} className='story_section_four_image'/>
@@ -63,7 +63,7 @@ function Story () {
                 </section>
                 <section className='story_section_three'>
                     <h3>MY STORY CONTINUES, BUT OFF THE WEB</h3>
-                    <h1>I’m a husband, father, coffee enthusiast, cat person, gamer, and Squarespace developer.</h1>
+                    <h1>Now that you know part of my story, you have seen a glimpse of my soul. I exist outside the web and I would love to share my story with you personally.</h1>
                 </section>
             </div>
             <Footer />

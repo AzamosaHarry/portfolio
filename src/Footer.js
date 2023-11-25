@@ -8,7 +8,7 @@ function Footer() {
             <div>
                 <p>Download CV</p>
                 <h3>|</h3>
-                <p>Johnharry238@gmail.com</p>
+                <p onClick={() => window.location = 'mailto:johnharry@gmail.com?subject=Access request'} >Johnharry238@gmail.com</p>
                 <h3>|</h3>
                 <p>Linkedin</p>
             </div>

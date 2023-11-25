@@ -1,15 +1,15 @@
 import './Home.css'
 import Footer from './Footer'
-import Header from './Header'
 import { Link, useNavigate } from 'react-router-dom'
 import { SlArrowDown } from 'react-icons/sl'
 import { BsSuitDiamondFill } from 'react-icons/bs'
+import Header2 from './Header2'
 function Home() {
 
     const navigate = useNavigate()
     return(
         <div>
-          <Header />
+          <Header2 />
             <div className='home_body'>
                 <section className='home_section_one'>
                 <div className='section_two_bg'>
@@ -70,19 +70,19 @@ function Home() {
                     <div className='home_section_two_div'>
                       <div onClick={() => {navigate('/portfolio/engineering')}}>
                           <h1>Mechanical engineering</h1>
-                          <h3>SUBMIT TICKET</h3>
+                          <h3>EXPLORE</h3>
                       </div>
                       <div onClick={() => {navigate('/portfolio/developer')}}>
                           <h1>Software developing</h1>
-                          <h3>SUBMIT TICKET</h3>
+                          <h3>EXPLORE</h3>
                       </div>
                       <div onClick={() => {navigate('/portfolio/design')}}>
                           <h1>Design</h1>
-                          <h3>SUBMIT TICKET</h3>
+                          <h3>EXPLORE</h3>
                       </div>
                       <div  onClick={() => {navigate('/portfolio/writer')}}>
                           <h1>Writer</h1>
-                          <h3>SUBMIT TICKET</h3>
+                          <h3>EXPLORE</h3>
                       </div>
                     </div>
                 </section>

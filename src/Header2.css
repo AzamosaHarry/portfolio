@@ -32,19 +32,19 @@
     display: flex;
     flex-direction: row;
     margin-left: auto;
-    color: black;
+    color: white;
     font-size: 13px;
     font-weight: 500;
 }
-.header_nav_list{
+.header_nav_list2{
     margin: 0 20px;
     font-size: 15px;
     cursor: pointer;
     text-decoration: none;
-    color: black;
+    color: white
 }
-.header_nav_list:hover{
-    color: white;
+.header_nav_list2:hover{
+    color: burlywood;
 }
 .dropdown {
     display: flex;
@@ -79,13 +79,14 @@
     cursor: pointer;
 }
 .header_dropdown_div > h1:hover{
-    color: black;
+    color: lemonchiffon;
 }
-.home_menu {
+.home_menu2 {
     display: none;
     font-size: 30px;
     margin-left: auto;
     z-index: 25;
+    color: white;
 }
 .home_sidebar{
     position: absolute;
@@ -137,15 +138,15 @@
     font-size: 18px;
     color: white;
 }
-.evajay_header {
+.portfolio_header {
     object-fit: contain;
-    color: black;
     font-size: 40px;
+    color: white;
 }
-.evajay_header2{
+.portfolio_header2{
     object-fit: contain;
-    color: black;
     font-size: 40px;
+    color: white;
 }
 
 @media (orientation: landscape) {
@@ -221,9 +222,8 @@
         opacity: 1;
         
     }
-    .home_menu {
+    .home_menu2 {
         display: block;
-        color: black;
     }
     .evajay_header {
         margin: 10px;
@@ -247,10 +247,10 @@
         color: white;
         margin-bottom: 10px;
         cursor: pointer;
-        border-top: 2px solid black;
+        border-top: 2px solid lemonchiffon;
         padding-top: 10px;
     }
     .header_dropdown_div > h1:hover{
-        color: black;
+        color: lemonchiffon;
     }
 }

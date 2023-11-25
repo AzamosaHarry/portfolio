@@ -216,7 +216,10 @@
         top: 110vh;
         left: 5%;
         color: white;
-        width: 70%;
+        width: 90%;
+    }
+    .section_summary > p{
+        line-height: 30px;
     }
     .engineering_section_six {
         justify-content: start;

@@ -34,28 +34,28 @@ function Insight () {
                             <p>Cillum quis nulla ea duis est est aliqua aliquip laboris commodo proident. Proident id nulla Lorem duis et ex duis ex esse dolor magna. Exercitation pariatur amet ut eu amet irure dolor consequat. Consectetur sunt cupidatat officia deserunt.</p>
                         </div>
                         <div>
-                            <h3>NYSC Engineering trainee</h3>
-                            <h1><span>Chibufavor Automobile</span> Umuahia, Abia, August 2023 - Present</h1>
+                            <h3>LEAD DEVELOPER</h3>
+                            <h1><span style={{color: 'burlywood'}}>Mileage Africa Company Limited,</span> Lekki, Lagos, May 2022 - December 2022</h1>
                             <p>Cillum quis nulla ea duis est est aliqua aliquip laboris commodo proident. Proident id nulla Lorem duis et ex duis ex esse dolor magna. Exercitation pariatur amet ut eu amet irure dolor consequat. Consectetur sunt cupidatat officia deserunt.</p>
                         </div>
                         <div>
-                            <h3>NYSC Engineering trainee</h3>
-                            <h1><span>Chibufavor Automobile</span> Umuahia, Abia, August 2023 - Present</h1>
+                            <h3>FRONtEND ENGINEER</h3>
+                            <h1><span style={{color: 'burlywood'}}>Mothership Africa Company Limited,</span> Remote, January 2022 - April 2022</h1>
                             <p>Cillum quis nulla ea duis est est aliqua aliquip laboris commodo proident. Proident id nulla Lorem duis et ex duis ex esse dolor magna. Exercitation pariatur amet ut eu amet irure dolor consequat. Consectetur sunt cupidatat officia deserunt.</p>
                         </div>
                         <div>
-                            <h3>NYSC Engineering trainee</h3>
-                            <h1><span>Chibufavor Automobile</span> Umuahia, Abia, August 2023 - Present</h1>
+                            <h3>SIWES Internship</h3>
+                            <h1><span style={{color: 'burlywood'}}>NNPC - Cheveron JV</span> Umuahia, Abia, April 2021 - July 2021</h1>
                             <p>Cillum quis nulla ea duis est est aliqua aliquip laboris commodo proident. Proident id nulla Lorem duis et ex duis ex esse dolor magna. Exercitation pariatur amet ut eu amet irure dolor consequat. Consectetur sunt cupidatat officia deserunt.</p>
                         </div>
                         <div>
-                            <h3>NYSC Engineering trainee</h3>
-                            <h1><span>Chibufavor Automobile</span> Umuahia, Abia, August 2023 - Present</h1>
+                            <h3>HUMAN RESOURCE PERSONNEL</h3>
+                            <h1><span style={{color: 'burlywood'}}>Capital X Ventures,</span> Warri, Delta State, October 2017 - December 2017</h1>
                             <p>Cillum quis nulla ea duis est est aliqua aliquip laboris commodo proident. Proident id nulla Lorem duis et ex duis ex esse dolor magna. Exercitation pariatur amet ut eu amet irure dolor consequat. Consectetur sunt cupidatat officia deserunt.</p>
                         </div>
                         <div>
-                            <h3>NYSC Engineering trainee</h3>
-                            <h1><span>Chibufavor Automobile</span> Umuahia, Abia, August 2023 - Present</h1>
+                            <h3>UBItS INtERNSHIP</h3>
+                            <h1><span style={{color: 'burlywood'}}>Faculty of Engineering, University of Benin,</span> Benin City, Edo State, November 2016 - December 2016</h1>
                             <p>Cillum quis nulla ea duis est est aliqua aliquip laboris commodo proident. Proident id nulla Lorem duis et ex duis ex esse dolor magna. Exercitation pariatur amet ut eu amet irure dolor consequat. Consectetur sunt cupidatat officia deserunt.</p>
                         </div>
                     </div>
@@ -67,12 +67,12 @@ function Insight () {
                     <div className='insight_section_two_div2'>
                         <div>
                             <h3>BACHELOR IN ENGINEERING, MECHANICAL ENGINEERING.</h3>
-                            <h1><span style={{color: 'burlywood'}}>University of Benin,</span> Benin City, Edo State</h1>
+                            <h1><span>University of Benin,</span> Benin City, Edo State</h1>
                             <p>December 2022</p>
                         </div>
                         <div>
                             <h3>HIGH SCHOOL DIPLOMA</h3>
-                            <h1><span style={{color: 'burlywood'}}>School of secondary educaion, I.C.E.</span> Warri, Delta state</h1>
+                            <h1><span>School of secondary educaion, I.C.E.</span> Warri, Delta state</h1>
                             <p> July 2013</p>
                         </div>
                     </div>
@@ -117,13 +117,13 @@ function Insight () {
                     </div>
                     <div className='insight_section_two_div2'>
                         <div>
-                            <h1>Cerified Professional Project manager.</h1>
-                            <h3><span style={{color: 'burlywood'}}>Our growth international,</span></h3>
+                            <h3 style={{color: 'burlywood'}}>CERFIFIED PROJECF MANAGEMENF.</h3>
+                            <h1><span>Our growth international,</span></h1>
                             <p>issued: October 2023</p>
                         </div>
                         <div>
-                            <h3>HUMAN RESOURCE MANAGEMEN</h3>
-                            <h1><span style={{color: 'burlywood'}}>british certificaion inc.</span></h1>
+                            <h3 style={{color: 'burlywood'}}>HUMAN RESOURCE MANAGEMEN</h3>
+                            <h1><span>british certificaion inc.</span></h1>
                             <p>issued: October 2023</p>
                         </div>
                     </div>

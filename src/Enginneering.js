@@ -53,7 +53,7 @@ function Engineering () {
                         <h2>EDUCATION</h2>
                         <hr />
                         <div className='engineering_section_two_div'>
-                            <h3>1998 - 2002</h3>
+                            <h3>2016 - 2022</h3>
                             <div>
                                 <h4>Bachelors of Engineering honors (Mechanical)</h4>
                                 <p>University of Benin, Benin City</p>
@@ -62,12 +62,12 @@ function Engineering () {
                         </div>
                         <hr />
                         <div className='engineering_section_two_div'>
-                            <h3>1998 - 2002</h3>
+                            <h3>2007 - 2013</h3>
                             <div>
-                                <h4>Bachelors of Engineering honors (Mechanical)</h4>
-                                <p>University of Benin, Benin City</p>
+                                <h4>Secondary school leaving certificate</h4>
+                                <p>School of Secondary Education, I.C.E.</p>
                             </div>
-                            <h3>Benin City, Nigeria</h3>
+                            <h3>Warri City, Nigeria</h3>
                         </div>
                     </div>
                     <img src={image1} className='engineering_section_image'/>
@@ -78,22 +78,40 @@ function Engineering () {
                         <h2>WORK EXPERIENCE</h2>
                         <hr />
                         <div className='engineering_section_three_div'>
-                            <h3>1998 - 2002</h3>
+                            <h3>August 2023 - Present</h3>
                             <div>
-                                <h4>Bachelors of Engineering honors (Mechanical)</h4>
-                                <p>University of Benin, Benin City</p>
+                                <h4>NYSC Graduate engineering trainee</h4>
+                                <p>Chibufavor Automobile Nigeria</p>
+                            </div>
+                            <h3>Umuahia, Abia state</h3>
+                        </div>
+                        <hr />
+                        <div className='engineering_section_three_div'>
+                            <h3>January 2022 - Present</h3>
+                            <div>
+                                <h4>CATIA contract worker</h4>
+                                <p>University of West Scotland</p>
+                            </div>
+                            <h3>Remote</h3>
+                        </div>
+                        <hr />
+                        <div className='engineering_section_three_div'>
+                            <h3>April 2021 - September 2021</h3>
+                            <div>
+                                <h4>SIWES Internship</h4>
+                                <p>NNPC - Chevron JV</p>
+                            </div>
+                            <h3>Benin City, Nigeria</h3>
+                        </div>
+                        <div className='engineering_section_three_div'>
+                            <h3>UBITS Internship</h3>
+                            <div>
+                                <h4>Lab technician</h4>
+                                <p>Department of Mechanical Engineering, University of Benin</p>
                             </div>
                             <h3>Benin City, Nigeria</h3>
                         </div>
                         <hr />
-                        <div className='engineering_section_three_div'>
-                            <h3>1998 - 2002</h3>
-                            <div>
-                                <h4>Bachelors of Engineering honors (Mechanical)</h4>
-                                <p>University of Benin, Benin City</p>
-                            </div>
-                            <h3>Benin City, Nigeria</h3>
-                        </div>
                     </div>
                     <img src={image2} className='engineering_section_image'/>
                 </section>
@@ -103,7 +121,7 @@ function Engineering () {
                         <h2>PROJECTS</h2>
                         <hr />
                         <div className='engineering_section_two_div'>
-                            <h3>1998 - 2002</h3>
+                            <h3>Design and fabrication of an economic waste plastic grinder</h3>
                             <div>
                                 <h4>Bachelors of Engineering honors (Mechanical)</h4>
                                 <p>University of Benin, Benin City</p>
