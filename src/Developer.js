@@ -1,97 +1,96 @@
 import './Developer.css'
 import Footer from './Footer';
-import Header from './Header';
+import Header2 from './Header2';
 import image11 from './image11.png'
 import image12 from './image12.png'
 import image13 from './image13.png'
 import image9 from './image9.jpg'
 import image5 from './image5.jpg'
+import imageb1 from './b1.png'
+import imageb2 from './b2.png'
+import imageb3 from './b3.png'
+import imageb4 from './b4.png'
+import imageb5 from './b5.png'
+import imageb6 from './b6.png'
+import imageb7 from './b7.png'
+import imageb8 from './b8.png'
+import imageb9 from './b9.png'
+import imageb10 from './b10.png'
+import imageb11 from './b11.png'
+import imageb12 from './b12.png'
+import imagep1 from './p1.webp'
+import imagep2 from './p2.gif'
+import imagep3 from './p3.gif'
+import imagep4 from './p4.webp'
+import imagep5 from './p5.gif'
+import imagep6 from './p6.webp'
+import imagep7 from './p7.webp'
+import imagep8 from './p8.gif'
+import imagep9 from './p9.gif'
+import imagep10 from './p10.webp'
+import imagep11 from './p11.webp'
+import imagep12 from './p12.webp'
+
 
 function Developer () {
     return(
         <div className='developer'>
-            <Header />
+            <Header2 />
             <div className='developer_body'>
                 <section className='developer_section_one'>
                     <div>
-                        <h3>Creative.</h3>
+                        <h3>Creative. Dold. Unplanned.</h3>
                         <h1>Software Developer.</h1>
-                    </div>
-                </section>
-                <section className='developer_section_two' >
-                    <h1>. I WORK</h1>
-                    <h1>TO GIVE CUSTOMERS</h1>
-                    <div className='bg_span'><div className='bg_div'><h1>ENDEARING
-                    <h1>EXCEPTIONAL</h1>
-                    </h1><h1>MEMORABLE</h1><h1>UNIQUE</h1></div></div>
-                    <h1>EXPERIENCE</h1>
-
-                </section>
-                <section className='developer_section_three'>
-                    <div className='developer_section_three_div2'>
-                        <div>
-                            <h1>Dev skills</h1>
-                            <h3>Javatscript</h3>
-                            <h3>React JS</h3>
-                            <h3>CSS</h3>
-                            <h3>Next JS</h3>
-                            <h3>Javatscrip</h3>
-                            <h3>Javatscrip</h3>
-                            <h3>Javatscrip</h3>
-                        </div>
-                        <div>
-                            <h1>Frameworks</h1>
-                            <h3>Javatscript</h3>
-                            <h3>React JS</h3>
-                            <h3>CSS</h3>
-                            <h3>Next JS</h3>
-                            <h3>Javatscrip</h3>
-                            <h3>Javatscrip</h3>
-                            <h3>Javatscrip</h3>
-                        </div>
-                    </div>
-                    <div className='developer_section_three_div'>
-                        <img src={image11} className='developer_section_three_image'/>
-                        <h1>This is not me, this is David Michelangelo</h1>
+                        <p>Your friendly neighborhood frontend developer, UX architect, and JavaScript engineer. I spend my days (and often nights) painting the Internet canvas with PROJECTS and lines of code, turning zeroes and ones into immersive, interactive experiences, Bona fide photochromic LENS enthusiast - sunlight or indoors, I've got it covered.</p>
+                        <p> I tread the path of minimalism, finding beauty in simplicity and order. When I'm not crafting beautiful web experiences, you can find me reading ARTICLES or swaying to the rhythm of Pop Music & Jazz, losing myself in the captivating flow of melodies. anyways you can CONTACT ME</p>
                     </div>
                 </section>
                 <section className='developer_section_four'>
-                    <div className='developer_section_four_div'>
-                        <img src={image12} className='developer_section_four_image'/>
-                        <h3>I am like David, I bring ar and creaiviy o web design</h3>
-                    </div>
-                    <div>
-                        <h1>. I WORK</h1>
-                        <h1>ON PROJECTS THAT</h1>
-                        <h1>I STRONGTLY</h1>
-                        <h1>BELIEVE IN</h1>
-                    </div>
+        
                 </section>
                 <section className='developer_section_five'>
-                    <h1>My recent projects</h1>
+                    <h1>Recent Projects.</h1>
                     <div>
-                        <img src={image5} className='developer_section_five_image'/>
-                        <img src={image9} className='developer_section_five_image'/>
-                        <img src={image5} className='developer_section_five_image'/>
-                        <img src={image9} className='developer_section_five_image'/>
-                        <img src={image5} className='developer_section_five_image'/>
-                        <img src={image9} className='developer_section_five_image'/>
-                        <img src={image5} className='developer_section_five_image'/>
-                        <img src={image9} className='developer_section_five_image'/>
+                        <img src={imagep1} className='developer_section_five_image'/>
+                        <img src={imagep2} className='developer_section_five_image'/>
+                        <img src={imagep3} className='developer_section_five_image'/>
+                        <img src={imagep4} className='developer_section_five_image'/>
+                        <img src={imagep5} className='developer_section_five_image'/>
+                        <img src={imagep6} className='developer_section_five_image'/>
+                        <img src={imagep7} className='developer_section_five_image'/>
+                        <img src={imagep8} className='developer_section_five_image'/>
+                        <img src={imagep9} className='developer_section_five_image'/>
+                        <img src={imagep10} className='developer_section_five_image'/>
+                        <img src={imagep11} className='developer_section_five_image'/>
+                        <img src={imagep12} className='developer_section_five_image'/>
                     </div>
                 </section>
                 <section className='developer_section_six'>
-                    <h1>Brands and companies that trust me</h1>
+                    <h1>Brands that trust me.</h1>
                     <div>
-                        
+                        <div>
+                            <img src={imageb1} className='developer_section_six_image'/>
+                            <img src={imageb3} style={{height: '10px'}} className='developer_section_six_image'/>
+                            <img src={imageb6} className='developer_section_six_image'/>
+                            <img src={imageb4} className='developer_section_six_image'/>
+                        </div>
+                        <div>
+                            <img src={imageb5} className='developer_section_six_image'/>
+                            <img src={imageb2} className='developer_section_six_image'/>
+                            <img src={imageb7} className='developer_section_six_image'/>
+                            <img src={imageb8} className='developer_section_six_image'/>
+                        </div>
+                        <div>
+                            <img src={imageb9} style={{widtht: '20%'}} className='developer_section_six_image'/>
+                            <img src={imageb10} className='developer_section_six_image'/>
+                            <img src={imageb11} className='developer_section_six_image'/>
+                            <img src={imageb12} className='developer_section_six_image'/>
+                        </div>
                     </div>
                 </section>
-                <section className='developer_section_seven'>
-                    <img src={image13} className='developer_section_section_image'/>
-                    <h1>GET IN TOUCH</h1>
-                </section>
+                
             </div>
-            <Footer />
+            <Footer style={{background: 'red'}}/>
         </div>
     )
 }

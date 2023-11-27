@@ -1,134 +1,57 @@
 .developer_body {
 }
 .developer_section_one {
+    width: 100%;
     min-height: 100vh;
-    background: url(/src/herobg-2k.jpg);
+    background: #0a131e;
+    background: url(/src/devbg1.png);
+    background-size: cover;
     color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.developer_section_one > div{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .developer_section_one h3{
     color: burlywood;
-    font-size: 90px;
+    font-size: 40px;
     font-weight: 500;
     font-family: 'Nothing You Could Do', cursive;
 }
 .developer_section_one h1{
-    font-size: 120px;
+    font-size: 50px;
     font-weight: 500;
+    margin-bottom: 30px;
 }
-.developer_section_two{
-    padding: 7.5% 15%;
-    background: black;
-    color: white;
-}
-.developer_section_two h1{
-    font-size: 80px;
-    font-weight: 200;
-}
-.bg_span {
-    width: fit-content;
-    overflow: hidden;
-    height: 80px;
-    overflow: hidden;
-    margin: 20px 0;
-}
-.bg_div {
-    width: fit-content;
-    animation: roll 5s linear infinite;
-    font-size: 80px;
-    font-weight: 900;
-    transform: translateY(0);
-    transition: 1s linear;
+.developer_section_one p{
+    font-size: 15px;
+    width: 40%;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 .developer_section_three {
-    display: flex;
-    padding: 5% 15%;
-    justify-content: center;
-    align-items: center;
-    background: black;
-    color: white;
     
-}
-.developer_section_three_div2{
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    color: white;
-}
-.developer_section_three_div2 > div > h1{
-    font-size: 13px;
-    font-weight: 500;
-    color: gray;
-    margin-bottom: 20px;
-}
-.developer_section_three_div2 > div > h3{
-    font-size: 13px;
-    font-weight: 400;
-    color: white;
-    line-height: 25px;
-}
-.developer_section_three_div {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.developer_section_three_div h1 {
-    font-size: 18px;
-    font-weight: 500;
-    color: burlywood;
-    font-family: 'Nothing You Could Do', cursive;
-}
-.developer_section_three_image {
-    width: 700px;
 }
 .developer_section_four {
-    display: flex;
-    padding: 5% 15%;
-    justify-content: center;
-    align-items: center;
-    background: black;
-    color: white;
     
-}
-.developer_section_four > div{
-    width: 50%;
-}
-.developer_section_four > div > h1{
-    font-size: 80px;
-    font-weight: 200;
-}
-.developer_section_four_div {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.developer_section_four_div h3{
-    font-size: 18px;
-    color: burlywood;
-    text-align: center;
-    font-family: 'Nothing You Could Do', cursive;
-}
-.developer_section_four_image {
-    width: 300px;
 }
 .developer_section_five {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2.5% 10%;
+    padding: 2.5% 20%;
     background: black;
     color: white;
 }
 .developer_section_five > h1{
-    font-size: 30px;
-    color: burlywood;
+    font-size: 20px;
+    color: white;
     font-weight: 500;
     margin-bottom: 20px;
 }
@@ -139,136 +62,75 @@
     flex-wrap: wrap;
 }
 .developer_section_five_image {
-    width: 22%;
+    width: 32%;
+    height: 300px;
     margin: 10px 0;
+    border-radius: 5px;
 }
 .developer_section_six {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2.5% 10%;
-    background: black;
+    padding: 2.5% 20%;
+    background: #10100f;
     color: white;
 }
 .developer_section_six > h1{
-    font-size: 30px;
-    color: burlywood;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 20px;
+    color: white;
 }
 .developer_section_six > div{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    min-height: 40vh;
-}
-.developer_section_seven {
-    display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: space-between;
+}
+.developer_section_six > div > div{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 2.5% 10%;
-    background: black;
-    color: white;
 }
-.developer_section_seven > h1 {
-    font-size: 120px;
-    font-weight: 200;
+.developer_section_six_image {
+    height: 40px;
+    margin: 40px 30px;
 }
-.developer_section_section_image {
-    width: 400px;
-}
-@keyframes roll {
-    0% { 
-        transform: translateY(50%); 
-    }
-    100% {
-        transform: translateY(-40%);
-    }
-}  
 @media all and (max-width: 600px) {
     .developer_section_one {
         justify-content: start;
         align-items: center;
         padding: 0 5%;
-        background: url(/src/herobg-2k-1.jpg);
+    }
+    .developer_section_one > div{
+        display: flex;
+        flex-direction: start;
+        align-items: start;
     }
     .developer_section_one h3{
-        font-size: 40px;
+        font-size: 20px;
     }
     .developer_section_one h1{
-        font-size: 80px;
+        font-size: 40px;
         font-weight: 500;
+    }
+    .developer_section_one p{
+        font-size: 13px;
+        width: 100%;
+        text-align: start;
+        line-height: 25px;
     }
     .developer_section_two{
         padding: 7.5% 5%;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
     }
     .developer_section_two h1{
         font-size: 50px;
         font-weight: 200;
-    }
-    .developer_section_three {
-        padding: 5% 5%;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-        
-    }
-    .developer_section_three_div2{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-    .developer_section_three_div2 > div > h1{
-        font-size: 13px;
-        font-weight: 500;
-    }
-    .developer_section_three_div2 > div > h3{
-        font-size: 13px;
-    }
-    .developer_section_three_div {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .developer_section_three_div h1 {
-        font-size: 18px;
-        font-weight: 500;
-        color: burlywood;
-    }
-    .developer_section_three_image {
-        width: 100%;
-    }
-    .developer_section_four {
-        padding: 5% 5%;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    .developer_section_four > div{
-        width: 100%;
-    }
-    .developer_section_four > div > h1{
-        font-size: 50px;
-    }
-    .developer_section_four_div {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .developer_section_four_div h3{
-        font-size: 18px;
-    }
-    .developer_section_four_image {
-        width: 300px;
-        margin-top: 50px;
+        margin: 0;
     }
     .developer_section_five {
         display: flex;
@@ -297,31 +159,23 @@
         padding: 2.5% 5%;
     }
     .developer_section_six > h1{
-        font-size: 30px;
-        color: burlywood;
         font-weight: 500;
         margin-bottom: 20px;
     }
     .developer_section_six > div{
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        min-height: 40vh;
+        align-items: space-between;
+        width: 100%;
     }
-    .developer_section_seven {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 2.5% 5%;
+    .developer_section_six > div > div{
+        width: 100%;
+    justify-content: start;
+    align-items: start;
     }
-    .developer_section_seven > h1 {
-        font-size: 50px;
-        font-weight: 200;
-        text-align: center;
-        
-    }
-    .developer_section_section_image {
-        width: 400px;
+    .developer_section_six_image {
+        height: 10px;
+        width: 15%;
+        margin-bottom: 30px;
     }
 }

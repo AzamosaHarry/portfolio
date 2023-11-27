@@ -51,7 +51,6 @@ function Writer () {
                         <h1>"but less bearable"</h1>
                         <p>Excerpt from the humming bird</p>
                         <div>
-                            <h4>I am Azamosa Harry and I started writing when I was 9. I share my Life thought and experience in my art.</h4>
                             <h3>My Latest Works</h3>
                         </div>
                     </div>

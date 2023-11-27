@@ -106,7 +106,7 @@
 
 @media all and (max-width: 600px) {
     .writer_section_one_div1 > div{
-        top: 65vh;
+        top: 70vh;
         font-size: 30px;
         font-weight: 500;
     }
