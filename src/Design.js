@@ -35,7 +35,7 @@ function Design () {
                 </Parallax>
             </div>
             <div className='design_main'>
-                    <h3>here's my small home to distinguished Projects I have worked on recenty, deeply rooted in my passion for helping brands express their desires cut accross UI/UX, graphics design and animation. I create brand identities through graphic design and art direction for brands, founders, start-ups, and institutions. True to my tradition, each of my brands builds on a specialty legacy while keeping an unwavering focus on the exquisite caliber of its projects. Welcome Traveller!</h3>
+                    <h3>here's my small home to distinguished projects I have worked on recenty, deeply rooted in my passion for helping brands express their desires cut accross UI/UX, graphics design and animation. I create brand identities through graphic design and art direction for brands, founders, start-ups, and institutions. True to my tradition, each of my brands builds on a specialty legacy while keeping an unwavering focus on the exquisite caliber of its projects. Welcome Traveller!</h3>
             </div>
             <section className='design_section_one'>
                 <div className='design_div'>

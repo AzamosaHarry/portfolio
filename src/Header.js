@@ -3,7 +3,7 @@ import './Header.css'
 import { Link, useNavigate } from 'react-router-dom'
 import { FiMenu } from 'react-icons/fi'
 import { AiOutlineClose } from 'react-icons/ai'
-import { RiLeafFill } from 'react-icons/ri'
+import { RiCodeBoxFill } from "react-icons/ri";
 import { SlArrowDown } from 'react-icons/sl'
 
 function Header() {
@@ -13,7 +13,7 @@ function Header() {
 
     return (
       <div className='header transparent'>      
-        <Link to='/portfolio'><RiLeafFill alt='' className='evajay_header' /></Link>
+        <Link to='/portfolio'><RiCodeBoxFill alt='' className='evajay_header' /></Link>
         <ul className='header_nav'>
           <li>
             <Link to='/portfolio/story' className='header_nav_list'>My Story</Link>
@@ -41,7 +41,7 @@ function Header() {
         <FiMenu className='home_menu' onClick={() => {setMenu(true)}}/>
         <div className={menu? 'home_sidebar_true' : 'home_sidebar'}>
             <div style={{display: 'flex', alignItems: 'center'}}>
-            <Link to='/portfolio'><RiLeafFill alt='' className='evajay_header2' /></Link>
+            <Link to='/portfolio'><RiCodeBoxFill alt='' className='evajay_header2' /></Link>
               <AiOutlineClose className='home_sidebar_close' onClick={() => {setMenu(false)}}/>
             </div>
             <ul className='home_sidebar_navbar'>

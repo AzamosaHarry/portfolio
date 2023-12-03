@@ -7,11 +7,23 @@
     align-items: center;
     padding: 60px 0;
 }
-.footer > div > p {
+.footer > div p {
     color: white;
     font-size: 13px;
     font-weight: 400;
     margin: 0 10px;
+}
+.footer > div a {
+    color: white;
+}
+.footer > div > a:visited {
+    text-decoration: none;
+}
+.footer > div > a:active {
+    text-decoration: none;
+}
+.footer > div > a:link {
+    text-decoration: none;
 }
 .footer > div > h3 {
     color: white;
@@ -19,7 +31,7 @@
     font-weight: 400;
     margin: 0 10px;
 }
-.footer > div > p:hover {
+.footer > div p:hover {
     color: sienna;
     cursor: pointer;
 }

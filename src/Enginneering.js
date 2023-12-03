@@ -103,6 +103,7 @@ function Engineering () {
                             </div>
                             <h3>Benin City, Nigeria</h3>
                         </div>
+                        <hr />
                         <div className='engineering_section_three_div'>
                             <h3>UBITS Internship</h3>
                             <div>
@@ -123,19 +124,17 @@ function Engineering () {
                         <div className='engineering_section_two_div'>
                             <h3>Design and fabrication of an economic waste plastic grinder</h3>
                             <div>
-                                <h4>Bachelors of Engineering honors (Mechanical)</h4>
-                                <p>University of Benin, Benin City</p>
+                                <p>Department of mechanical engineering, faculty of engineering, University of Benin</p>
                             </div>
                             <h3>Benin City, Nigeria</h3>
                         </div>
                         <hr />
                         <div className='engineering_section_two_div'>
-                            <h3>1998 - 2002</h3>
+                            <h3>Design and fabrication of a mini fire fighting robot</h3>
                             <div>
-                                <h4>Bachelors of Engineering honors (Mechanical)</h4>
-                                <p>University of Benin, Benin City</p>
+                                <p>NIPES Engineering journal | Research Gate</p>
                             </div>
-                            <h3>Benin City, Nigeria</h3>
+                            <h3>Online Journal</h3>
                         </div>
                     </div>
                     <img src={image3} className='engineering_section_image'/>
@@ -145,22 +144,58 @@ function Engineering () {
                         <hr id='first_rule'/>
                         <h2>CERTIFICATIONS AND MEMBERSHIPS</h2>
                         <hr />
-                        <div className='engineering_section_three_div'>
-                            <h3>1998 - 2002</h3>
+                        <div className='engineering_section_three_divvv'>
                             <div>
-                                <h4>Bachelors of Engineering honors (Mechanical)</h4>
-                                <p>University of Benin, Benin City</p>
+                                <h4>Corperate member</h4>
+                                <p>Nigerian Institution of Professional Engineers and Scientists (NIPES)</p>
                             </div>
-                            <h3>Benin City, Nigeria</h3>
+                        </div>
+                        <div className='engineering_section_three_divvv'>
+                            <div>
+                                <h4>Member</h4>
+                                <p>International Association of Engineers (IAENG)</p>
+                            </div>
+                        </div>
+                        <div className='engineering_section_three_divvv'>
+                            <div>
+                                <h4>Member</h4>
+                                <p>Institute of Mechanical Engineers (IMechE)</p>
+                            </div>
+                        </div>
+                        <div className='engineering_section_three_divvv'>
+                            <div>
+                                <h4>Affiliate member</h4>
+                                <p>Nigerian Institute of Mechanical Engineers (NIMechE)</p>
+                            </div>
                         </div>
                         <hr />
-                        <div className='engineering_section_three_div'>
-                            <h3>1998 - 2002</h3>
+                        <div className='engineering_section_three_divvv'>
                             <div>
-                                <h4>Bachelors of Engineering honors (Mechanical)</h4>
-                                <p>University of Benin, Benin City</p>
+                                <h4>Certified project management professional</h4>
+                                <p>Gold Seal Certification IGO</p>
                             </div>
-                            <h3>Benin City, Nigeria</h3>
+                            <h3>issued: October 2023</h3>
+                        </div>
+                        <div className='engineering_section_three_divvv'>
+                            <div>
+                                <h4>WSO Occupational and enviromental safety and health (HSE level 1,2 and 3) certifications</h4>
+                                <p>Gold Seal Certification IGO</p>
+                            </div>
+                            <h3>issued: October 2023</h3>
+                        </div>
+                        <div className='engineering_section_three_divvv'>
+                            <div>
+                                <h4>Human Resource Mangement Certification</h4>
+                                <p>Britist Certification Inc.</p>
+                            </div>
+                            <h3>issued: October 2023</h3>
+                        </div>
+                        <div className='engineering_section_three_divvv'>
+                            <div>
+                                <h4>Enviromental Impact Asssesment</h4>
+                                <p>Enviromental Impact Asssesment Experts' Certification Scheme</p>
+                            </div>
+                            <h3>issued: October 2023</h3>
                         </div>
                     </div>
                     <img src={image5} className='engineering_section_image'/>

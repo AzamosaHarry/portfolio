@@ -41,8 +41,8 @@ function Developer () {
                     <div>
                         <h3>Creative. Dold. Unplanned.</h3>
                         <h1>Software Developer.</h1>
-                        <p>Your friendly neighborhood frontend developer, UX architect, and JavaScript engineer. I spend my days (and often nights) painting the Internet canvas with PROJECTS and lines of code, turning zeroes and ones into immersive, interactive experiences, Bona fide photochromic LENS enthusiast - sunlight or indoors, I've got it covered.</p>
-                        <p> I tread the path of minimalism, finding beauty in simplicity and order. When I'm not crafting beautiful web experiences, you can find me reading ARTICLES or swaying to the rhythm of Pop Music & Jazz, losing myself in the captivating flow of melodies. anyways you can CONTACT ME</p>
+                        <p>Your friendly neighborhood Software developer, UX architect, Artificial intelligence and JavaScript engineer. I spend my days (and often nights) painting the Internet canvas with projects and lines of code, turning zeroes and ones into immersive, interactive experiences. Bona fide photochromic creative enthusiast - sunlight or indoors, I've got it covered.</p>
+                        <p> I tread the path of minimalism, finding beauty in simplicity and order. When I'm not crafting beautiful web experiences and sofwares APIs, you can find me reading articles or swaying to the rhythm of Indie music & Jazz, losing myself in the captivating flow of melodies.</p>
                     </div>
                 </section>
                 <section className='developer_section_four'>

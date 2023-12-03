@@ -44,7 +44,7 @@
     color: white
 }
 .header_nav_list2:hover{
-    color: burlywood;
+    color: sienna;
 }
 .dropdown {
     display: flex;
@@ -79,7 +79,7 @@
     cursor: pointer;
 }
 .header_dropdown_div > h1:hover{
-    color: lemonchiffon;
+    color: sienna;
 }
 .home_menu2 {
     display: none;

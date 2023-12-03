@@ -27,6 +27,7 @@
 }
 .insight_section_two {
     padding: 5% 10%;
+    padding-bottom: 0;
     display: flex;
     justify-content: space-between;
 }
@@ -34,7 +35,7 @@
     width: 40%;
 }
 .insight_section_two_div1 > h1{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 500;
     font-family: 'Cormorant Garamond', serif;
 }
@@ -42,17 +43,17 @@
     width: 60%;
 }
 .insight_section_two_div2 > div{
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 .insight_section_two_div2 > div > h3{
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     font-size: 13px;
     font-weight: 500;
     color: burlywood;
 }
 .insight_section_two_div2 > div > h1{
-    margin-bottom: 15px;
-    font-size: 30px;
+    margin-bottom: 5px;
+    font-size: 25px;
     font-weight: 500;
     font-family: 'Cormorant Garamond', serif;
 }
@@ -60,6 +61,83 @@
     line-height: 25px;
     font-size: 14px;
     font-weight: 500;
+    width: 70%;
+}
+.insight_section_education {
+    padding: 5% 10%;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.insight_section_education_div1 {
+    width: 40%;
+}
+.insight_section_education_div1 > h1{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+}
+.insight_section_education_div2 {
+    width: 60%;
+}
+.insight_section_education_div2 > div{
+    margin-bottom: 20px;
+}
+.insight_section_education_div2 > div > h3{
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    color: burlywood;
+}
+.insight_section_education_div2 > div > h1{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+}
+.insight_section_education_div2 > div > p{
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 70%;
+}
+.insight_section_skills {
+    padding: 5% 10%;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.insight_section_skills_div1 {
+    width: 40%;
+}
+.insight_section_skills_div1 > h1{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+}
+.insight_section_skills_div2 {
+    width: 60%;
+}
+.insight_section_skills_div2 > div{
+    margin-bottom: 20px;
+}
+.insight_section_skills_div2 > div > h3{
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    color: burlywood;
+}
+.insight_section_skills_div2 > div > h1{
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+}
+.insight_section_skills_div2 > div > p{
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 70%;
 }
 @media all and (max-width: 600px) {
     .insight_section_one {
@@ -85,6 +163,7 @@
     .insight_section_two_div1 > h1{
         font-size: 30px;
         font-weight: 500;
+        color: sienna;
     }
     .insight_section_two_div2 {
         width: 100%;
@@ -104,6 +183,76 @@
     .insight_section_two_div2 > div > p{
         line-height: 25px;
         font-size: 13px;
+        width: 100%;
     }
-    
+    .insight_section_education {
+        padding: 5% 5%;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .insight_section_education_div1 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .insight_section_education_div1 > h1{
+        font-size: 30px;
+        font-weight: 500;
+        color: sienna;
+    }
+    .insight_section_education_div2 {
+        width: 100%;
+    }
+    .insight_section_education_div2 > div{
+        margin-bottom: 50px;
+    }
+    .insight_section_education_div2 > div > h3{
+        margin-bottom: 10px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .insight_section_education_div2 > div > h1{
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .insight_section_education_div2 > div > p{
+        line-height: 25px;
+        font-size: 13px;
+        width: 100%;
+    }
+    .insight_section_skills {
+        padding: 5% 5%;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .insight_section_skills_div1 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .insight_section_skills_div1 > h1{
+        font-size: 30px;
+        font-weight: 500;
+        color: sienna;
+    }
+    .insight_section_skills_div2 {
+        width: 100%;
+    }
+    .insight_section_skills_div2 > div{
+        margin-bottom: 50px;
+    }
+    .insight_section_skills_div2 > div > h3{
+        margin-bottom: 10px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .insight_section_skills_div2 > div > h1{
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .insight_section_skills_div2 > div > p{
+        line-height: 25px;
+        font-size: 13px;
+        width: 100%;
+    }
 }

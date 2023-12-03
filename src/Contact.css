@@ -32,7 +32,7 @@
     border: 1px solid gray;
     border-left: 4px solid gray;
     padding: 25px 50px;
-    transition: 1s linear;
+    transition: 0.5s linear;
 } 
 .contact_section_two > div:hover{
     border-left: 4px solid sienna;
@@ -43,6 +43,7 @@
     font-size: 28px;
     font-weight: 400;
     margin: 10px 0;
+    margin-top: 0;
 } 
 .contact_section_two > div > p{
     color: gray;
@@ -56,6 +57,8 @@
     font-size: 12px;
     font-weight: 400;
     margin: 40px 0;
+    margin-bottom: 0;
+    cursor: pointer;
 } 
 .contact_section_three {
     background: black;
@@ -73,12 +76,13 @@
     font-weight: 400;
     margin-bottom: 20px;
 }
-.contact_section_three > h3{
+.contact_section_three  h3{
     color: sienna;
     font-size: 13px;
     font-weight: 400;
     margin: 5px 0;
     text-decoration: underline;
+    cursor: pointer;
 }
 @media all and (max-width: 600px) {
     .contact_section_two > div{
@@ -88,5 +92,8 @@
     .contact_section_one > h1{
         margin: 0 5%;
         font-size: 60px;
+    }
+    .contact_section_two > div{
+        padding: 10px 50px;
     }
 }
