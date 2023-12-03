@@ -64,7 +64,7 @@
     display: block;
     background: #000;
     padding: 10% 20%;
-    top: 100px;
+    top: 20vh;
     width: max-content;
     border-radius: 2.5px;
 }
@@ -79,7 +79,7 @@
     cursor: pointer;
 }
 .header_dropdown_div > h1:hover{
-    color: black;
+    color: sienna;
 }
 .home_menu {
     display: none;
