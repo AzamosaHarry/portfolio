@@ -42,84 +42,84 @@ function Design () {
                     <div>
                         <img src={image10} className='design_image'/>
                         <div>
-                            <h3>Capital X</h3>
+                            <h3>Saturn V</h3>
                             <p>Brand Identity, Packaging design</p>
                         </div>
                     </div>
                     <div>
                         <img src={image9} className='design_image'/>
                         <div>
-                            <h3>Capital X</h3>
+                            <h3>Saturn V</h3>
                             <p>Brand Identity, Packaging design</p>
                         </div>
                     </div>
                     <div>
                         <img src={image2} className='design_image'/>
                         <div>
-                            <h3>Capital X</h3>
+                            <h3>Saturn V</h3>
                             <p>Brand Identity, Packaging design</p>
                         </div>
                     </div>
                     <div>
                         <img src={image3} className='design_image'/>
                         <div>
-                            <h3>Capital X</h3>
+                            <h3>Saturn V</h3>
                             <p>Brand Identity, Packaging design</p>
                         </div>
                     </div>
                     <div>
                         <img src={image4} className='design_image'/>
                         <div>
-                            <h3>Capital X</h3>
+                            <h3>Saturn V</h3>
                             <p>Brand Identity, Packaging design</p>
                         </div>
                     </div>
                     <div>
                         <img src={image5} className='design_image'/>
                         <div>
-                            <h3>Capital X</h3>
+                            <h3>Saturn V</h3>
                             <p>Brand Identity, Packaging design</p>
                         </div>
                     </div>
                     <div>
                         <img src={image6} className='design_image'/>
                         <div>
-                            <h3>Capital X</h3>
+                            <h3>Saturn V</h3>
                             <p>Brand Identity, Packaging design</p>
                         </div>
                     </div>
                     <div>
                         <img src={image7} className='design_image'/>
                         <div>
-                            <h3>Capital X</h3>
+                            <h3>Saturn V</h3>
                             <p>Brand Identity, Packaging design</p>
                         </div>
                     </div>
                     <div>
                         <img src={image8} className='design_image'/>
                         <div>
-                            <h3>Capital X</h3>
+                            <h3>Saturn V</h3>
                             <p>Brand Identity, Packaging design</p>
                         </div>
                     </div>
                     <div>
                         <img src={image3} className='design_image'/>
                         <div>
-                            <h3>Capital X</h3>
+                            <h3>Saturn V</h3>
                             <p>Brand Identity, Packaging design</p>
                         </div>
                     </div>
                     <div>
                         <img src={image1} className='design_image'/>
                         <div>
-                            <h3>Capital X</h3>
+                            <h3>Saturn V</h3>
                             <p>Brand Identity, Packaging design</p>
                         </div>
                     </div>
                     <div>
                         <img src={image11} className='design_image'/>
                         <div>
-                            <h3>Capital X</h3>
+                            <h3>Saturn V</h3>
                             <p>Brand Identity, Packaging design</p>
                         </div>
                     </div>

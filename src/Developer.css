@@ -5,7 +5,8 @@
     min-height: 100vh;
     background: #0a131e;
     background: url(/src/devbg1.png);
-    background: #8f9779;
+    background: #004B49
+    ;
     background-size: cover;
     color: white;
     display: flex;
@@ -173,9 +174,10 @@
         width: 100%;
     justify-content: start;
     align-items: start;
+    flex-wrap: wrap;
     }
     .developer_section_six_image {
-        height: 10px;
+        height: 20px;
         width: 15%;
         margin-bottom: 30px;
     }

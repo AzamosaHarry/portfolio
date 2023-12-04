@@ -14,29 +14,31 @@ function Header() {
     return (
       <div className='header transparent'>      
         <Link to='/portfolio'><RiCodeBoxFill alt='' className='evajay_header' /></Link>
-        <ul className='header_nav'>
-          <li>
-            <Link to='/portfolio/story' className='header_nav_list'>My Story</Link>
-          </li>
-          <li className='dropdown' onClick={() => {setDropdown(!dropdown)}}>         
-            <div>
-              <Link to='#' className='header_nav_list'>My portfolios</Link>
-              <SlArrowDown className='header_arrow'/>
-            </div>
-            <div className={dropdown? 'header_dropdown_div' : 'header_dropdown_div_false'}>
-              <h1  onClick={() => {navigate('/portfolio/engineering')}}>Mechanical engineer</h1>
-              <h1 onClick={() => {navigate('/portfolio/developer')}}>Software developer</h1>
-              <h1 onClick={() => {navigate('/portfolio/design')}}>Design</h1>
-              <h1 onClick={() => {navigate('/portfolio/writer')}}>Writer</h1>
-            </div>
-          </li>
-          <li>
-            <Link to='/portfolio/insight' className='header_nav_list'>Insight</Link>
-          </li>
-          <li>
-            <Link to='/portfolio/contact' className='header_nav_list'>Contact</Link>
-          </li>
-        </ul>
+        <div>
+          <ul className='header_nav'>
+            <li>
+              <Link to='/portfolio/story' className='header_nav_list'>My Story</Link>
+            </li>
+            <li className='dropdown' onClick={() => {setDropdown(!dropdown)}}>         
+              <div className='dropdown_div_first-child'>
+                <Link to='#' className='header_nav_list'>My portfolios</Link>
+                <SlArrowDown className='header_arrow'/>
+              </div>
+              <div className={dropdown? 'header_dropdown_div' : 'header_dropdown_div_false'}>
+                <h1 onClick={() => {navigate('/portfolio/engineering')}}>Mechanical engineer</h1>
+                <h1 onClick={() => {navigate('/portfolio/developer')}}>Software developer</h1>
+                <h1 onClick={() => {navigate('/portfolio/design')}}>Design</h1>
+                <h1 onClick={() => {navigate('/portfolio/writer')}}>Writer</h1>
+              </div>
+            </li>
+            <li>
+              <Link to='/portfolio/insight' className='header_nav_list'>Insight</Link>
+            </li>
+            <li>
+              <Link to='/portfolio/contact' className='header_nav_list'>Contact</Link>
+            </li>
+          </ul>
+        </div>
 
         <FiMenu className='home_menu' onClick={() => {setMenu(true)}}/>
         <div className={menu? 'home_sidebar_true' : 'home_sidebar'}>
@@ -53,7 +55,7 @@ function Header() {
                   onClick={() => {setDropdown(!dropdown)}}
                   to="#"
                   className='home_sidebar_link'
-                  >My portfolio</Link></li>
+                  >My portfolios</Link></li>
                   <div className={dropdown? 'header_dropdown_div' : 'header_dropdown_div_false'}>
               <h1  onClick={() => {navigate('/portfolio/engineering')}}>Mechanical engineer</h1>
               <h1 onClick={() => {navigate('/portfolio/developer')}}>Software developer</h1>

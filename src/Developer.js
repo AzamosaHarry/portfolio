@@ -72,19 +72,17 @@ function Developer () {
                             <img src={imageb1} className='developer_section_six_image'/>
                             <img src={imageb3} style={{height: '10px'}} className='developer_section_six_image'/>
                             <img src={imageb6} className='developer_section_six_image'/>
-                            <img src={imageb4} className='developer_section_six_image'/>
+                            <img src={imageb4} style={{height: '40px'}}className='developer_section_six_image'/>
+                            <img src={imageb5}  style={{height: '40px'}}className='developer_section_six_image'/>
+                            <img src={imageb2} style={{height: '40px'}}className='developer_section_six_image'/>
                         </div>
                         <div>
-                            <img src={imageb5} className='developer_section_six_image'/>
-                            <img src={imageb2} className='developer_section_six_image'/>
-                            <img src={imageb7} className='developer_section_six_image'/>
-                            <img src={imageb8} className='developer_section_six_image'/>
-                        </div>
-                        <div>
-                            <img src={imageb9} style={{widtht: '20%'}} className='developer_section_six_image'/>
+                            <img src={imageb9} style={{height: '40px'}} className='developer_section_six_image'/>
                             <img src={imageb10} className='developer_section_six_image'/>
-                            <img src={imageb11} className='developer_section_six_image'/>
+                            <img src={imageb11} style={{height: '40px'}}className='developer_section_six_image'/>
                             <img src={imageb12} className='developer_section_six_image'/>
+                            <img src={imageb7} className='developer_section_six_image'/>
+                            <img src={imageb8} style={{height: '20px'}}className='developer_section_six_image'/>
                         </div>
                     </div>
                 </section>
