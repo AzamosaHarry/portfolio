@@ -1,12 +1,12 @@
 import './Engineering.css'
 import Header from './Header'
-import image1 from './image1.jpg'
-import image2 from './image2.jpg'
-import image3 from './image3.jpg'
-import image5 from './image5.jpg'
+import work from './work.jpg'
+import project from './project.jpg'
+import certificate from './certificate.png'
 import sum1 from './about-asteroid-main.png'
 import sum2 from './about-asteroid1.png'
 import sum3 from './about-asteroid2.png'
+import university from './university.png'
 import { Parallax } from 'react-scroll-parallax'
 
 function Engineering () {
@@ -70,7 +70,7 @@ function Engineering () {
                             <h3>Warri City, Nigeria</h3>
                         </div>
                     </div>
-                    <img src={image1} className='engineering_section_image'/>
+                    <img src={university} className='engineering_section_image'/>
                 </section>
                 <section className='engineering_section_three'>
                     <div>
@@ -114,7 +114,7 @@ function Engineering () {
                         </div>
                         <hr />
                     </div>
-                    <img src={image2} className='engineering_section_image'/>
+                    <img src={work} className='engineering_section_image'/>
                 </section>
                 <section className='engineering_section_two'>
                     <div>
@@ -137,7 +137,7 @@ function Engineering () {
                             <h3>Online Journal</h3>
                         </div>
                     </div>
-                    <img src={image3} className='engineering_section_image'/>
+                    <img src={project} className='engineering_section_image'/>
                 </section>
                 <section className='engineering_section_three'>
                     <div>
@@ -198,7 +198,7 @@ function Engineering () {
                             <h3>issued: October 2023</h3>
                         </div>
                     </div>
-                    <img src={image5} className='engineering_section_image'/>
+                    <img src={certificate} className='engineering_section_image'/>
                 </section>
                 <section className='engineering_section_six'>
                     <h1>Engineering sofwares and soft skills</h1>
