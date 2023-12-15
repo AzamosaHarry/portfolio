@@ -1,13 +1,13 @@
 import Footer from './Footer';
 import Header from './Header';
 import './Story.css'
-import image10 from './image10.jpg'
-import image9 from './image9.jpg'
-import image5 from './image5.jpg'
-import image1 from './image1.jpg'
-import image2 from './image2.jpg'
-import image3 from './image3.jpg'
-import image4 from './image4.jpg'
+import story1 from './story1.jpg'
+import story3 from './story3.jpg'
+import story2 from './story2.jpg'
+import story7 from './story7.jpg'
+import story6 from './story6.png'
+import story5 from './story5.png'
+import story4 from './story4.png'
 
 function Story () {
     return (
@@ -21,7 +21,7 @@ function Story () {
                     </div>
                 </section>
                 <section className='story_section_two'>
-                    <img src={image10} className='story_section_two_image'/>
+                    <img src={story1} className='story_section_two_image'/>
                     <div>
                         <div>
                             <h1>Its not enough to exist, One must live.</h1>
@@ -34,8 +34,8 @@ function Story () {
                     <h1>I’m a christian, tech lover, soccer enthusiast, cat person, writer, designer, and software developer.</h1>
                 </section>
                 <section  className='story_section_four'>
-                    <img src={image5} className='story_section_four_image'/>
-                    <img src={image9} className='story_section_four_image'/>
+                    <img src={story2} className='story_section_four_image'/>
+                    <img src={story3} className='story_section_four_image'/>
                 </section>
                 <section className='story_section_five' >
                     <h1>Back Story.</h1>
@@ -45,19 +45,19 @@ function Story () {
                 </section>
                 <section className='story_section_six'>
                     <div>
-                        <img src={image1} className='story_section_six_image1'/>
+                        <img src={story7} className='story_section_six_image1'/>
                         <h1>The Mom.</h1>
                     </div>
                     <div>
-                        <img src={image2} className='story_section_six_image2'/>
+                        <img src={story6} className='story_section_six_image2'/>
                         <h1>The Church</h1>
                     </div>
                     <div>
-                        <img src={image3} className='story_section_six_image1'/>
+                        <img src={story5} className='story_section_six_image1'/>
                         <h1>The Obsession.</h1>
                     </div>
                     <div>
-                        <img src={image4} className='story_section_six_image2'/>
+                        <img src={story4} className='story_section_six_image2'/>
                         <h1>The Focus.</h1>
                     </div>
                 </section>

@@ -89,6 +89,7 @@
 }
 .story_section_four_image {
     width: 50%;
+    height: 800px;
 }
 .story_section_five {
     padding: 5% 15% ;
@@ -180,6 +181,7 @@
     }
     .story_section_four_image {
         width: 100%;
+        height: auto;
         margin: 10px 0;
     }
     .story_section_five {
