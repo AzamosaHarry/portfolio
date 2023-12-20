@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.22448abc.css",
-    "main.js": "/portfolio/static/js/main.89bb3d89.js",
+    "main.css": "/portfolio/static/css/main.588dce6f.css",
+    "main.js": "/portfolio/static/js/main.9a60eb39.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/p9.gif": "/portfolio/static/media/p9.915d8615c56824012e05.gif",
     "static/media/p5.gif": "/portfolio/static/media/p5.ba524e0b9a2d102e2332.gif",
@@ -13,7 +13,6 @@
     "static/media/story1.jpg": "/portfolio/static/media/story1.cda56feaeb5c8d87ecf7.jpg",
     "static/media/p8.gif": "/portfolio/static/media/p8.3030ca1680a9b22c1928.gif",
     "static/media/project.jpg": "/portfolio/static/media/project.3165e00f39dad28d31bd.jpg",
-    "static/media/devbg1.png": "/portfolio/static/media/devbg1.8403de065518e70c814d.png",
     "static/media/story4.png": "/portfolio/static/media/story4.6141bf030f5072b8df96.png",
     "static/media/university.png": "/portfolio/static/media/university.d4f781da9ca937cb445f.png",
     "static/media/image5.jpg": "/portfolio/static/media/image5.2bca5b367e89c9a56792.jpg",
@@ -30,12 +29,9 @@
     "static/media/image1.jpg": "/portfolio/static/media/image1.f71c0ce0f641b68720f0.jpg",
     "static/media/4.jpg": "/portfolio/static/media/4.4581054e0c4080cda5aa.jpg",
     "static/media/about-asteroid-main.png": "/portfolio/static/media/about-asteroid-main.ce0cc896f6b484852435.png",
-    "static/media/image12.png": "/portfolio/static/media/image12.751a47e2911dc713589f.png",
     "static/media/image11.jpg": "/portfolio/static/media/image11.37b8b5f4336e3c7e369f.jpg",
-    "static/media/image13.png": "/portfolio/static/media/image13.0408b7e9bc603d3ebf59.png",
     "static/media/story7.jpg": "/portfolio/static/media/story7.c5b3e8bb82e409e72531.jpg",
     "static/media/image10.jpg": "/portfolio/static/media/image10.19794762c05ea72c5173.jpg",
-    "static/media/image11.png": "/portfolio/static/media/image11.e0edf2c7a5cb22173f5e.png",
     "static/media/AzamosaHarryOsawayemen.pdf": "/portfolio/static/media/AzamosaHarryOsawayemen.1352b4a889f13fc66d1f.pdf",
     "static/media/image9.jpg": "/portfolio/static/media/image9.c2883063ec1979fdaa85.jpg",
     "static/media/b2.png": "/portfolio/static/media/b2.8582021c80833320ff94.png",
@@ -54,12 +50,12 @@
     "static/media/p10.webp": "/portfolio/static/media/p10.3a7f54715922c0ca2e69.webp",
     "static/media/p11.webp": "/portfolio/static/media/p11.b7219b2548802127555e.webp",
     "index.html": "/portfolio/index.html",
-    "main.22448abc.css.map": "/portfolio/static/css/main.22448abc.css.map",
-    "main.89bb3d89.js.map": "/portfolio/static/js/main.89bb3d89.js.map",
+    "main.588dce6f.css.map": "/portfolio/static/css/main.588dce6f.css.map",
+    "main.9a60eb39.js.map": "/portfolio/static/js/main.9a60eb39.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22448abc.css",
-    "static/js/main.89bb3d89.js"
+    "static/css/main.588dce6f.css",
+    "static/js/main.9a60eb39.js"
   ]
 }
