@@ -1,13 +1,13 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './Home';
-import Design from './Design';
-import Engineering from './Enginneering';
-import Writer from './Writer';
-import Developer from './Developer';
-import Story from './Story';
-import Contact from './Contact';
-import Insight from './Insight';
+import Home from './pages/Home/Home';
+import Design from './pages/Design/Design';
+import Engineering from './pages/Engineering/Enginneering';
+import Writer from './pages/Writer/Writer';
+import Developer from './pages/Developer/Developer';
+import Story from './pages/Story/Story';
+import Contact from './pages/Contact/Contact';
+import Insight from './pages/Insight/Insight';
 
 function App() {
   return (

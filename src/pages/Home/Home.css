@@ -1,6 +1,6 @@
 .home_section_one {
     min-height: 100vh;
-    background: url(/src/2.jpg);
+    background: url(/src/assets/2.jpg);
     background-size: cover;
 }
 .section_two_bg {
@@ -171,7 +171,7 @@
     
 }
     .home_section_one {
-        background: url(/src/4.jpg);
+        background: url(/src/assets/4.jpg);
         min-height: 100vh;
         background-size: cover;
     }

@@ -1,13 +1,13 @@
-import Footer from './Footer';
-import Header from './Header';
+import Footer from '../../components/Footer';
+import Header from '../../components/Header';
 import './Story.css'
-import story1 from './story1.jpg'
-import story3 from './story3.jpg'
-import story2 from './story2.jpg'
-import story7 from './story7.jpg'
-import story6 from './story6.png'
-import story5 from './story5.png'
-import story4 from './story4.png'
+import story1 from '../../assets/story1.jpg'
+import story3 from '../../assets/story3.jpg'
+import story2 from '../../assets/story2.jpg'
+import story7 from '../../assets/story7.jpg'
+import story6 from '../../assets/story6.png'
+import story5 from '../../assets/story5.png'
+import story4 from '../../assets/story4.png'
 
 function Story () {
     return (

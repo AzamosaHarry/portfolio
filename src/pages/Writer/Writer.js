@@ -1,14 +1,14 @@
 import { useEffect, useRef, useState } from 'react'
-import Footer from './Footer'
-import Header from './Header'
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import { VscDash } from "react-icons/vsc";
 import './Writer.css'
-import image5 from './image5.jpg'
-import image6 from './image6.jpg'
-import image7 from './image7.jpg'
-import image8 from './image8.png'
-import image9 from './image9.jpg'
-import image10 from './image10.jpg'
+import image5 from '../../assets/image5.jpg'
+import image6 from '../../assets//image6.jpg'
+import image7 from '../../assets//image7.jpg'
+import image8 from '../../assets//image8.png'
+import image9 from '../../assets//image9.jpg'
+import image10 from '../../assets//image10.jpg'
 
 function Writer () {
     const containerRef1 = useRef(null)

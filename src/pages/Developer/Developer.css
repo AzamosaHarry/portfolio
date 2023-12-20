@@ -3,9 +3,7 @@
 .developer_section_one {
     width: 100%;
     min-height: 100vh;
-    background: #0a131e;
-    background: url(/src/devbg1.png);
-    background: #004B49
+    background: sienna
     ;
     background-size: cover;
     color: white;
@@ -20,9 +18,9 @@
 }
 .developer_section_one h3{
     color: burlywood;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 500;
-    font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Cormorant Garamond', serif;
 }
 .developer_section_one h1{
     font-size: 50px;

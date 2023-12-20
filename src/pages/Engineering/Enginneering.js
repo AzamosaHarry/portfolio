@@ -1,12 +1,12 @@
 import './Engineering.css'
-import Header from './Header'
-import work from './work.jpg'
-import project from './project.jpg'
-import certificate from './certificate.png'
-import sum1 from './about-asteroid-main.png'
-import sum2 from './about-asteroid1.png'
-import sum3 from './about-asteroid2.png'
-import university from './university.png'
+import Header from '../../components/Header';
+import work from '../../assets/work.jpg'
+import project from '../../assets/project.jpg'
+import certificate from '../../assets/certificate.png'
+import sum1 from '../../assets/about-asteroid-main.png'
+import sum2 from '../../assets/about-asteroid1.png'
+import sum3 from '../../assets/about-asteroid2.png'
+import university from '../../assets/university.png'
 import { Parallax } from 'react-scroll-parallax'
 
 function Engineering () {

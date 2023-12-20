@@ -1,9 +1,9 @@
 import './Home.css'
-import Footer from './Footer'
 import { Link, useNavigate } from 'react-router-dom'
 import { SlArrowDown } from 'react-icons/sl'
 import { BsSuitDiamondFill } from 'react-icons/bs'
-import Header2 from './Header2'
+import Header2 from '../../components/Header2';
+import Footer from '../../components/Footer';
 function Home() {
 
     const navigate = useNavigate()

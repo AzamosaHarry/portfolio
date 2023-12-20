@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom'
-import cv from './AzamosaHarryOsawayemen.pdf'
+import cv from '../assets/AzamosaHarryOsawayemen.pdf'
 import './Footer.css'
 
 function Footer() {
