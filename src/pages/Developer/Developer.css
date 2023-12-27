@@ -15,24 +15,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: start;
 }
-.developer_section_one h3{
+.developer_section_one > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.developer_section_one > div > div > h3{
     color: burlywood;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     font-family: 'Cormorant Garamond', serif;
 }
-.developer_section_one h1{
-    font-size: 50px;
+.developer_section_one > div > div > h1{
+    font-size: 60px;
     font-weight: 500;
     margin-bottom: 30px;
+    font-family: 'Cormorant Garamond', serif;
 }
 .developer_section_one p{
     font-size: 15px;
     width: 40%;
     line-height: 30px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: start;
 }
 .developer_section_three {
     
