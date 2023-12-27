@@ -7,15 +7,13 @@ function Footer() {
     const navigate = useNavigate()
 
     function notification() {
-        Notification.requestPermission().then((permission) => {
-            if (permission == 'granted') {
+            
                 new Notification('Azamosa Harry Portfolio', {
                     body: `The curriculum vitae of Azamosa Harry Osawayemen has been downloaded to your local device storage`,
                     icon: {logowhite},
                     image: {logowhite}
                 })
-            }
-        })
+        
     }    
 
     return (
